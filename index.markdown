@@ -1,6 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
+
+# hi!
+
+Here you can find my projects, work, and a few things I'm interested in.
+
+I'm always happy to connect, so feel free to say hello.
+
+
+
