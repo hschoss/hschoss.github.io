@@ -1,0 +1,28 @@
+/* assets/custom.css */
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  color: #222;
+}
+
+.site-header {
+  border-bottom: none;
+}
+
+.site-title {
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.post-title {
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -17,41 +17,40 @@ a lot of trackpad gestures. Compared to Windows, interacting with the system
 felt more intuitive and creative. But soon I noticed the pure pain of window
 management.
 
-I rarely work in a single window with full focus. Most of the time, I read
-papers on one side of the screen while taking notes on the other, or write
-emails and use tools like ChatGPT to refine the wording and make them sound
-more professional. Later at university, we often worked with a text editor and
-a terminal side by side instead of using an IDE.
+I rarely work in a single window environment. Most of the time, I read papers
+on one side of the screen while taking notes on the other, or write emails and
+use tools like ChatGPT to refine the them. Later at university, we often
+worked with a text editor and a terminal side by side instead of using an IDE.
 
 Back on Windows, arranging windows with <kbd>Win</kbd> + <kbd>Arrow</kbd> keys felt
 effortless. But on macOS, I often found myself dragging windows around with the
 trackpad or using Split View through the small button in the corner.
 
-After spending some time on Wikipedia and falling into a bit of a rabbit hole,
-I discovered Linux with its tiling window managers like [i3](https://i3wm.org/). The idea of
-controlling everything through the keyboard with vim-like key-bindings
-immediately clicked. If you have ever learned the "Language of Motion" you can
-apply the same principles to navigating your entire operating system. 
+After spending some time on Wikipedia and falling into a deep rabbit hole, I
+discovered Linux with its tiling window managers like [i3](https://i3wm.org/).
+The idea of navigating my entire system through the keyboard with vim-like
+key-bindings immediately clicked. Once you have climbed the steep learning
+curve of the “language of motion”, you start to notice its benefits even in
+contexts where there is no file to edit.
 
-I stopped constantly switching between scrolling, clicking, and typing, after
-an adjustment period of a few weeks. Instead, everything becomes part of a
-single, consistent interaction model. In addtion to increased cognitive
-ergonomics, it is also physically more ergonomic. Your hands stay on the
-keyboard, your arms remain in a neutral position and you avoid constantly
-reaching for a mouse which reduces unnecessary repetitive movement and awkward
-posture shifts.
+Within an adjustment period of a few weeks, I stopped constantly switching
+between scrolling, clicking, and typing. Instead, everything became part of a
+single, consistent interaction model. This improves both cognitive and
+physical ergonomics. My hands stay on the keyboard, my arms remain in a
+neutral position, and I no longer need to constantly reach for a mouse. As a
+result, my posture is also more stable and less strained than before.
 
 ![Ergonomic Mouse](/assets/images/ergonomic-mouse.jpg)
 
 *I know multiple people who, after developing hand pain from “normal” mouse
-usage, ended up using something like a crane navigation joystick just to open
+usage, ended up using something like this crane navigation joystick just to open
 PDFs.*
 
 After my MacBook lost about 85% of its battery capacity and became permanently
 dependent on a charger (and then its power cable started smoking while I was
 editing a paper in the uni library), I decided something had to change. So
-last summer I  installed Linux on a gigantic 17" HP Probook from 2015 and
-began setting up the system I am still using today.
+last summer I installed Linux on a gigantic 17" HP Probook and began setting
+up the system I am still using today.
 
 In the process, I learned that "settings apps" like the ones I was used to on my
 phone or older laptops, can often be replaced by simple text files.
@@ -75,7 +74,6 @@ It depends on how often you use a computer and whether you enjoy using it effice
 As a rough guide, [this](https://m.xkcd.com/1205/index.html) xkcd chart is often referenced:
 
 ![Is It Wort the Time? Mouse](/assets/images/is-it-worth-the-time.png)
-
 
 I first learned about managing dotfiles through one of the best open
 educational resources I've come across and later adapted the ideas to my own

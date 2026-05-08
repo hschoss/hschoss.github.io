@@ -4,3 +4,9 @@ _site/
 .jekyll-metadata
 .bundle/
 vendor/bundle/
+
+_posts/2025-04-01-building-a-kubernetes-homelab.md
+
+llm-prompt.markdown
+
+_posts/2025-11-28-the-perfect-dual-boot-setup.md

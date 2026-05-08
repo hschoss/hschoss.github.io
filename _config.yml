@@ -13,3 +13,9 @@ github_username: hschoss
 theme: minima
 plugins:
   - jekyll-feed
+
+# hide RSS feed
+minima:
+  hide_site_feed_link: true
+  skin: classic
+
