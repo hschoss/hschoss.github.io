@@ -19,3 +19,9 @@ minima:
   hide_site_feed_link: true
   skin: classic
 
+
+# add mathjax compatibility
+markdown: kramdown
+
+kramdown:
+  math_engine: mathjax
