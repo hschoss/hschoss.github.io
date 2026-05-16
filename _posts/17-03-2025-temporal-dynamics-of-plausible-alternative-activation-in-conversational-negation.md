@@ -1,9 +1,9 @@
----
-layout: post
-title:  "Temporal Dynamics of Plausible Alternative Activation in
-        Conversational Negation"
-date:   2026-03-26
-categories: university psychology research
+--- 
+layout: post 
+title:  "Temporal Dynamics of Plausible Alternative Activation
+        in Conversational Negation" 
+date:   2026-03-26 
+categories: university psychology research 
 ---
 
 Negation is a fundamental linguistic phenomenon that has been researched
