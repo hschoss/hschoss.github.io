@@ -82,3 +82,4 @@ and i highly recommend it.
 
 If you are curious, you can check out my configuration [here](https://github.com/hschoss/dotfiles)
 and get inspired by some of the free software I use:
+
