@@ -51,8 +51,7 @@ false ones ([Kaup et al., 2007](https://doi.org/10.4324/9780203936443))
 study, where they presented pictures alongside sentences, half of which matched
 the situation while the other half did not. As predicted, they found the
 negation by truth value interaction as an early effect and a main effect of
-truth value with a delay of 1500 ms
-
+truth value with a delay of 1500 ms.
 
 Individuals confuse the polarity of a given sentence with its falsity because
 conversational negation behaves differently than logical negation, which often
@@ -191,19 +190,16 @@ A sentence of the form *There is [a/an]/[not a/not an] X* (German *Dort ist
 ms, a string of letters was presented, which could either be a word or a
 non-word. Participants had to judge as fast and accurately as possible whether
 the presented letter sequence was a word (“j”) or a non-word (“n”) by pressing
-the corresponding keys (lexical decision task).
-
-Before the actual data collection began, participants were required to complete
-10 practice trials and were reminded to respond as quickly and accurately as
-possible.
-
-Throughout the experiment, feedback was provided for incorrect answers in the
-form of a 2000ms delay while displaying “false”. Sometimes the audio stopped
-mid-sentence and participants had to klick on the correct sentence There is
-[a/an]/[not a/not an] they just listened to (attention check task). Finally,
-after completing the 10 practice trials, 160 experimental trials, and 40
-attention checks, participants were asked whether they had participated in an
-experiment like this before and were thanked for their participation.
+the corresponding keys (lexical decision task). Before the actual data
+collection began, participants were required to complete 10 practice trials and
+were reminded to respond as quickly and accurately as possible. Throughout the
+experiment, feedback was provided for incorrect answers in the form of a 2000ms
+delay while displaying “false”. Sometimes the audio stopped mid-sentence and
+participants had to klick on the correct sentence There is [a/an]/[not a/not
+an] they just listened to (attention check task). Finally, after completing the
+10 practice trials, 160 experimental trials, and 40 attention checks,
+participants were asked whether they had participated in an experiment like
+this before and were thanked for their participation.
 
 
 ## Results
@@ -275,7 +271,6 @@ Figure 1 illustrates this main effect and shows a decrease in response time
 when the delay was set to 750 ms compared to no delay. Therefore, our results
 suggest that when processing negation all targets are equally strong
 automatically activated over time.
-
 
 
 A possible theoretical interpretation of our results is that the 750 ms delay

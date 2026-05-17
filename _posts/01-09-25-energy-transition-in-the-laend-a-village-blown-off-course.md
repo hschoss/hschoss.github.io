@@ -32,9 +32,9 @@ conversations with local residents as well as the websites of the *Freie
 Landschaft Ostelsheim e.V. (FLO)* association and the *Initiative pro Windkraft
 Ostelsheim e.V. (PRO)*. While the PRO initiative supported the construction of
 the wind farm through factual arguments and a progressive stance, FLO members
-opposed the project due to their strong attachment to their homeland.  Their
-arguments contradicted the scientific consensus and the official information
-provided by Stadtwerke Tübingen.
+opposed the project due to their strong attachment to their homeland. Their
+arguments departed from the scientific consensus and the information Stadtwerke
+Tübingen had provided.
 
 Interestingly, in an official information brochure, all local political parties
 as well as the mayor unanimously and for similar reasons aligned themselves
@@ -86,7 +86,7 @@ wind turbines, thereby identifying with the FLOs and, building on the minimal
 group paradigm, also agreeing with their broader line of reasoning.
 
 
-## Points of Light and Windmills
+## Windmills and Points of Light
 
 In 1935, Muzafer Sherif investigated the influence of the group on an
 individual’s perception using the autokinetic effect. This is an optical-
@@ -134,8 +134,8 @@ both sides. One example would be to increase economic incentives for the use of
 local energy sources such as wind and solar power in order to reduce dependence
 on foreign energy imports and to make this clear to the population. In the
 future, communities planning to build a wind turbine should make use of this
-insight.  Nevertheless, the question remains whether conflict and dispute are
-not part of the very nature of democracy.
+insight. Whether conflict is inevitable in democratic processes remains an open
+question.
 
 Even if the decision was not based on any scientific grounds: Perhaps it showed
 people who felt that politics did not take them seriously, patronized them, or
