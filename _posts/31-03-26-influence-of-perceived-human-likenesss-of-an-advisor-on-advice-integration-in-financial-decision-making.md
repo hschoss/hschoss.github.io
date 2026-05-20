@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Influence of Perceived Human-Likeness of an Advisor on Advice
+title:  "The Influence of Perceived Human-Likeness of an Advisor on Advice
         Integration in Financial Decision-Making" 
 date:   2026-03-31
 categories: university psychology research
