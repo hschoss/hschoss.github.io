@@ -6,8 +6,6 @@ categories: linux code
 ---
 
 if you are intersted in self hosting this post may be for you. There are several political and personal reasons to start self hosting. 
-
-
 ## information check
 
 * What is the goal and why do people care?
@@ -32,6 +30,69 @@ if you are intersted in self hosting this post may be for you. There are several
 
 
 
+In my 3rd semester at university i had a course about Large Language Models. 
+I really liked the topic but i didn't like that we were just theorizing without actually looking at the thing we were talking about.
+We never actively utilized chatgpt or any other technology while we were discussing them all the time.
+
+Everybody had to do a presentation and when my presentation came around i wanted to show them hands on how these chatbots had evolved.
+So i followed a youtube tutorial, installed docker on a machine and installed the chatgpt 2 version locally on my mahcine. 
+In my presentation i could then show people what gpt 2 could do. 
+
+i did not really like the uni seminar at all. it was for 2 semesters and i was glad when it was over. 
+
+But there stayed this idea that you could host these models yourself at home.
+
+At first i thought that nobody would utilize these bots to talk about feelings or anything psychological. Why would you? They aren't humans, they cannot really understand frust, anger, and feeling altogether.
+well, i was wrong. We are telling these computers everything. Absolutely everything. 
+
+That means that the people running these llms have a lot of knowledge baout us. At that time i also calculated how much energy this thing does need. 
+
+One inference isn't that bad and is around 10 times as much energy as one google search. If this one inference saves me clicking on ten links, than this is ok.
+
+But when you instruct these things to do something complicated they have to have a lot of context. And that is really expensive. 
+
+diese überlegungen führten mich dazu darüber nachzudenken ein LLM lokal hosten zu wollen. Wie schwer kann es schon sein?
+
+Ich hbae mir vor 5 Jahren einen Gaming Pc zusamengestellt und etwas mehr als ein paar Grafikkarten wird man ja nicht brauchen.  
+
+Vor zwei Jahren haben meine Eltern auch eie Solaranlage auf dem Dach installiert bekommen.
+Das bedeutet, dass wir gerade sowieso viel zu viel Strom produzierten, während alle anderen mEnshcen sich im lnad über hu hohe Energiepreise aufregten.
+
+
+Also organisierte ich mir die Daten aus dem Dashboard und versuchte abzuschätzen was wir für ein Delta hatten.
+in den letzten zwei Jahren haben wir fast 2 von 3  Kilowattstunden für die Einspeisung ins Netz produziert. wi
+wirkungsgrad von 80%
+dank shclechter Energiepolitik der letzten 20 Jahre bedeutet dass, dass wir für 35 cent strom beziehen und für 6 cent strom einzahlen.
+Wir verlieren also pro killowattstunde ca. 30 cent.
+
+Wenn man aus einer blöden ökonomischen Brille auf das Thema schaut sieht man schnell, dass so im Jahr mehrere tausend Euro flöten gehen.
+
+Gerade so stromintensive Aufgaben wie einen server zu betreiben, würden sehr gut zu uns ins Haus passen. 
+Man müsste aber die Serverlogik mit der Stromproduktionslogik verbinden. Es wäre also die Voraussetzung, dass die Sonne scheint, dass die 
+Services laufen können. 
+So entstand meine Idee vom Green Computing. Ich hatte gemerkt, dass mir der Elfenbeinturm und das philoshophieren nicht besonders gefällt und wollte hands on Erfahrung mit
+diesen Systemen bekommen. 
+Dam
+über mehrere tage auf reddit eignetet ich mir die Grundlagen an. Ich brauche viel Compute, also GPU Power. Da könnte ich NVidia oder Amd nehmen.
+Amd ist günstiger besserer bang for buck, aber wenn ich iwssenschaftliches computing machen wollen würde, brauche ich nvidia backends.
+
+Wenn das nicht nur eine private sondern auch eine professionelle Angelegenheit werden sollte, lohnte es sich also am Anfang die Extrameile zu gehen
+
+
+deshalb war für mich klar, dass ich hier tief reingehen wollen würde. Ich möchte lernen technische INfrastruktur die für ein LLM Cluster nöitg ist, daheim laufen zu lassen.
+Dafürbrauch eich linux skills, aber auch kubernetes skills.
+das ist das lustige an diesem skill tree. Als ich die erste Sitzung in meinem neuen Seminar hatte, wusste ich gerade erst, was linux und UNIX war und plötzlich  ein Jahr später 
+wusste ihch plötzlich was kubernetes war und wieso es viellelicht ein mal praktisch für mich sein könnte. 
+
+Es ist eigenltich der perfekte Zeitpunkt, um dmait zu starten. DIe LLMs helfen einem dabei endlose YAML konfigurationen zu erstellen. Was in den Dateien steht, ist gar nicht so wichtig. 
+Es ist nur iwchitg, dass es deklaratiav ist und in git gemanagt und, dass ich meine infrastruktur sehr einfach zurückholen kann, wenn irgendetwas abschmiert.
+
+endlose yaml konfigurationen
+
+
+
+Security
+Wer irgendetwas für andere Leute baut, muss irgendwann auch über sicherheit nachdenken. Nicht das man andere dadurch verletzt. 
 
 
 
@@ -48,6 +109,12 @@ why do i do this?
 * i don't want to spend my whole life on a corporate server, i want to use my own servers
 * it will get easier, It is good to build valuable technology habits. "dont use everything, becasue everything comes and goes. Just be intentional)  
 *
+
+
+habe ihc es unterschätjzt?
+schon. Ich dachte, dass man es in 4h Stunden schaffen könnte ien funktionioerendes cluster aufzusetzen. Es brauchte bei mir aber Wochen von Anlöufen, bis ich mein erstes Kubernets Cluster auf Talos LInux laufen lassenk konnte
+ich brauchte wirklich vergliechsweise ewig, weil ich das booten noch nicht so draufhatte und talos linux sehr pingelig mit seinem boot modus
+
 
 
 wikipeida rabbit holes are great. The first one was linux and the next one is homelabbing.
@@ -184,10 +251,22 @@ Es waren alles aufgaben und selbst etwas auf dei Beine zu stellen war ungern ges
 Ich konnte mir das nur leisten, weil ich zur Zeit im Praktikum war. Wieso sollte man je so viel Geld dafür ausgeben
 Es ist so viel overhead sich in diese Themen einzuarbeiten. Wir reden über 3 Wochen.  Wenn ich damit im Endeffekt nur immich für meine Familie hoste, lohnt sich das nicht wirklich.
 
+
 Ich wollte mehr und in mich selbst investieren.
 
 
 das ist alles Geld, welches ich in mich selbst investiere. 
+
+
+
+hätten die beiden raspberry pis gereicht? Ja wahrscheinlich shcon zum lernen. Aber mein Anatz war nicht irgendein textbook rauszukramen und dnan Aufgabe für AUfgabe durchzugehen, bisich irngedwann auf magische Weise kubernetes beherrsche. Mein Ansatz war von Anfang an: Mache so viel kaputt wie irgendiwe möglich. Verusche es erstmal ohne Anleitung und nutze Chattie, wenn es nicht mehr weitergeht. 
+Du kannst sonst beim Radfahren oder joggen als Podcasts noch ide Tutorials im Nachhinein hören. wichtig ist praktische Erfahrung.
+Das würde ich auch in anderen BEreichen so machen. Erstmal die Hände schmutzig machen und irgendwie rumfummeln und psäter dann die educational ressources dazu anhören.
+
+
+
+
+
 
 
 Anfagns wollte ich es so minimal wie möglich halten, aber mir wurde schnell bewusst, dass man beefy enterprise hardware braucht, um wirklich reliabel und production grade diese modelle laufen zu lassen.
