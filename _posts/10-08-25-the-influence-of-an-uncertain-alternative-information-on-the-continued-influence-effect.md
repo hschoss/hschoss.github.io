@@ -3,7 +3,7 @@ layout: post
 title:  "The Influence of Uncertain Alternative Information on the 
         Continued Influence Effect" 
 date:   2026-03-26 
-categories: university psychology essay 
+categories: university psychology paper 
 ---
 
 ***Abstract***
@@ -12,7 +12,7 @@ categories: university psychology essay
 advance their own political and economic interests. To better understand the
 impact of these influences, we examined the effect of different types of
 retractions on the Continued Influence Effect. Using a newspaper article, we
-compared the the influence of a retraction accompanied by the presentation of
+compared the influence of a retraction accompanied by the presentation of
 an uncertain alternative piece of information with a retraction without and
 with a certain alternative piece of information. In a between-subjects design
 with a sample of 753 participants, we were able to replicate that a certain
@@ -23,9 +23,9 @@ experimental conditions. Among participants who believed the correction, we
 found a weak correlation indicating that the less participants believe the
 correction of the misinformation, the more inferences they draw from it. One
 possible interpretation of the results is based on Johnson and Laird’s theory
-of mental models. Future research could examine realistic user interfaces, such
-as online forums and news services. This could help investigate the influence
-of the medium on the Continued Influence Effect and clarify whether
+of mental models. Future research could examine more realistic user interfaces,
+such as online forums and news services. This could help investigate the
+influence of the medium on the Continued Influence Effect and clarify whether
 misinformation spreads more easily online.*
 
 
@@ -35,13 +35,12 @@ the rise of the internet and the transition into the information age. Today,
 the media is often misused by individuals and institutions to advance their own
 agendas and polarize public opinion. In the process, misleading, inaccurate, or
 false information is disseminated, which often has negative societal
-consequences.  A well-known example is former U.S. President Donald Trump, who
+consequences. A well-known example is former U.S. President Donald Trump, who
 during his four-year term spread more than 30,000 false or misleading claims,
 many of them hundreds of times ([Glenn Kessler et al.,
 2021](https://www.washingtonpost.com/politics/2021/01/24/trumps-false-or-misleading-claims-total-30573-over-four-years/)).
 Through him and others, more than half of all misinformation regarding COVID-19
-was spread via social media half of all misinformation regarding COVID-19
-([Naeem et al., 2021](https://doi.org/10.1111/hir.12320)  ). This dynamic led
+was spread via social media ([Naeem et al., 2021](https://doi.org/10.1111/hir.12320). This dynamic led
 to reduced willingness to get vaccinated, the spread of unproven treatment
 methods, and ultimately hindered the achievement of herd immunity ([Borges do
 Nascimento et al., 2022](https://doi.org/10.2471/BLT.21.287654)).  Research
@@ -50,7 +49,9 @@ by [Johnson and Seifert (1994)](https://doi.org/10.1037/0278- 7393.20.6.1420).
 They found that misinformation continues to influence conclusions formed later,
 even if it was corrected before the inference was made. They termed the
 phenomenon of continuing to trust misinformation even after recalling its
-correction the Continued Influence Effect.  Replications of the effect have
+correction the Continued Influence Effect.
+
+Replications of the effect have
 often used the following paradigm over the years: Subjects are presented with a
 fictional report about a fire in a department store.  Flammable materials, such
 as improperly stored gas canisters and oil paints, are said to have caused the
@@ -169,14 +170,14 @@ questions.
 
 ## Results
 
-Von den 758 Versuchsteilnehmern wurden 753 in der Datenanalyse berücksichtigt,
-weil Versuchspersonen, die weniger als zwei Inferenzfragen beantworteten, nicht
-in die Auswertung miteinbezogen wurden. Außerdem wurden Versuchspersonen vor
-der Analyse aus dem Datensatz entfernt, wenn sie unter 18 Jahre alt waren, oder
-nicht der Verarbeitung ihrer Daten zustimmten. Durch Randomisierung wurden die
-Versuchsteilnehmer der W<sub>0</sub>- Bedingung (*n* = 246),
-W<sub>u</sub>-Bedingung (*n* = 253) oder W<sub>s</sub>-Bedingung (*n* = 254)
-zugeteilt.
+Of the 758 participants, 753 were included in the data analysis. Participants
+were excluded from the analysis if they had answered fewer than two inference
+questions. In addition, participants were removed from the dataset prior to
+analysis if they were under 18 years of age or had not consented to the
+processing of their data. Through random assignment, participants were
+allocated to one of three conditions: the W<sub>0</sub> condition (*n* = 246),
+the W<sub>u</sub> condition (*n* = 253), or the W<sub>s</sub> condition (*n* =
+254).
 
 
 ### Statistical Analysis
@@ -186,7 +187,7 @@ zugeteilt.
 *Mean of the Inference Scores*
 
 
-Bemerkung: Die Balken geben die Standardfehler an
+Note: The bars indicate the standard errors.
 
 As shown in Figure 1, participants in the W<sub>0</sub> condition (*M* = 0.69,
 *SD* = 0.46) had significantly higher inference scores than those in the
@@ -203,7 +204,7 @@ the W*0* group with the W*u* group, there was no significant result, *t*(504) =
 
 *Mean of the fact recall scores*
 
-Bemerkung: Die Balken geben die Standardfehler an.
+Note: The bars indicate the standard errors.
 
 To ensure that the participants’ results varied only in terms of inference
 performance and not in overall memory performance, a one-way ANOVA was

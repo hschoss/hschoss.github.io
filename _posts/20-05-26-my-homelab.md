@@ -2,10 +2,9 @@
 layout: post
 title:  "My Homelab"
 date:   2026-05-07 10:00:00
-categories: linux code
+categories: linux infra
 ---
 
-if you are intersted in self hosting this post may be for you. There are several political and personal reasons to start self hosting. 
 ## information check
 
 * What is the goal and why do people care?
@@ -27,36 +26,92 @@ if you are intersted in self hosting this post may be for you. There are several
 * What are the key risks?
 * Do you have all the data you need?
 
+In my third semester studying psychology, I took a seminar about large language
+models and how they differ from human language abilities and reasoning. I
+really liked the topic. What I did not like was that we spent our time
+theorizing about these systems without playing around with them. 
+
+Everyone in the seminar had to give a presentation.
+
+When it was my turn, I followed a YouTube tutorial, installed
+Docker on my machine, and set up the open-sourced version of
+[GPT-2](https://en.wikipedia.org/wiki/GPT-2) locally.
+I left the ivory tower and showed the group hands-on, how far these
+chatbots had already evolved. 
+
+In the end, I was relieved when the seminar was finally over.
+But one idea stayed with me: **You can run this technology yourself, at home.**
 
 
+## my plan
 
-In my 3rd semester at university i had a course about Large Language Models. 
-I really liked the topic but i didn't like that we were just theorizing without actually looking at the thing we were talking about.
-We never actively utilized chatgpt or any other technology while we were discussing them all the time.
+A few months later i saw the cringy video of the [techbro dinner](https://www.zdfheute.de/politik/ausland/usa-trump-tech-bosse-dinner-zuckerberg-gates-cook-100.html) in the white house. 
+It was clear to me that  the myth of the effective altruist 
+went to the myth of the effective tax avoider. 
+Something in me stopped feeling comfortable that these guys own the databases
+where my interaction with these chatbots are saved.
+When the LLM's came around i thought nobody would talk about personal and emotional stuff with these machines and just use them as a search engine
+on ssteroids, but i soon talked about everything and anything with these chatbots. I didn't feel very comfortbale anymore
 
-Everybody had to do a presentation and when my presentation came around i wanted to show them hands on how these chatbots had evolved.
-So i followed a youtube tutorial, installed docker on a machine and installed the chatgpt 2 version locally on my mahcine. 
-In my presentation i could then show people what gpt 2 could do. 
+its been known for years that with the power of machine learning, 
+facebook can predict you personlaity
 
-i did not really like the uni seminar at all. it was for 2 semesters and i was glad when it was over. 
+That means that the people running these llms have a lot of knowledge baout us.
+https://doi.org/10.1073/pnas.1418680112
 
-But there stayed this idea that you could host these models yourself at home.
 
-At first i thought that nobody would utilize these bots to talk about feelings or anything psychological. Why would you? They aren't humans, they cannot really understand frust, anger, and feeling altogether.
-well, i was wrong. We are telling these computers everything. Absolutely everything. 
+well up to this point this was just an estimation of being on a spectrum on 
+dimensions that were  
 
-That means that the people running these llms have a lot of knowledge baout us. At that time i also calculated how much energy this thing does need. 
+*it is scary that tech overlords gather really detailled life information about you* 
+
+
+Another reason was that i calculated
+
+that it needs about 2-3 times the energy per prompt than a google search, which is fine i would say.
+The much more interesting part is the trainig costs
+these are calculated in Gigawatts, not Megawatts and also not Kilowatts
 
 One inference isn't that bad and is around 10 times as much energy as one google search. If this one inference saves me clicking on ten links, than this is ok.
+ At that time i also calculated how much energy this thing does need. 
 
-But when you instruct these things to do something complicated they have to have a lot of context. And that is really expensive. 
+*don't make more incentives for the big corporations to destroy ressources in 
+producing even bigger neural networks. The technology has been known for a long time now, but they only improve because they are burning more moeny and ressources.
+its economically not smart.
+
+
+
+* build your own technical skills and learn this "world changing technology"
+instead of believing everything some coked up techbros in silicon valley tell you
+Furthermore everyone is talking about it all the time. And i cannot here it anymore.  
+Everyone is talking, talking and talking about these systems and how they will change the world.
+But who is actually capable of deploying them himself. And who is actually using this technology to improve the life of other people. 
+Considerably less people 
+
+so the decision was clear: I want to host my own LLM locally.
+
+
+## requirements
+
+at first i wanted 
+
+
+server hardware is expensive and it even got more expensive last year.
+That is why i looked on ebay and asked my family for old hardware. 
+
+i first wanted to do a 4x AMD MI 50  32 GB Rig, but i soon noticed, that the
+support won't be too great, so i switched it to 
 
 diese überlegungen führten mich dazu darüber nachzudenken ein LLM lokal hosten zu wollen. Wie schwer kann es schon sein?
 
-Ich hbae mir vor 5 Jahren einen Gaming Pc zusamengestellt und etwas mehr als ein paar Grafikkarten wird man ja nicht brauchen.  
+Ich hbae mir vor 5 Jahren einen Gaming Pc zusamengestellt und etwas mehr als ein paar Grafikkarten wird man ja nicht brauchen. dachte ich   
 
 Vor zwei Jahren haben meine Eltern auch eie Solaranlage auf dem Dach installiert bekommen.
 Das bedeutet, dass wir gerade sowieso viel zu viel Strom produzierten, während alle anderen mEnshcen sich im lnad über hu hohe Energiepreise aufregten.
+
+
+## some napkin math
+
 
 
 Also organisierte ich mir die Daten aus dem Dashboard und versuchte abzuschätzen was wir für ein Delta hatten.
