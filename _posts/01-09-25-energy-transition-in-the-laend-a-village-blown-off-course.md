@@ -5,6 +5,13 @@ date:   2026-03-26
 categories: uni psy essay 
 ---
 
+*This post grew out of a seminar on social psychology in political contexts
+that I attended during my fourth semester. The original version was written as
+an academic essay, but the conflict I took a closer look at felt too relevant
+to stay in that format. The original essay and the academic version are
+available [here](/assets/src)*
+
+
 Not far from Tübingen, on the northern edge of the Black Forest, lies the
 village of Ostelsheim, idyllically nestled in the Heckengäu region and home to
 around 2,600 residents. Traditionally a conservative stronghold of the
@@ -12,11 +19,11 @@ Christian Democratic Union, the village has in recent years shifted toward
 darker shades of blue. Germany was taken by surprise when, in April 2023, the
 Syrian refugee Ryyan Alshebbl was elected here of all places as Europe’s first
 refugee mayor. Two years later, in April 2025, a conflict unfolded within the
-village community that impressively links social psychology with the climate
+village community that links social psychology with the climate
 crisis.  
 
 In 2024, the Tübingen Public Utilities sought to sign a permit agreement
-with the municipality of Ostelsheim for a wind farm project. Beginnning in
+with the municipality of Ostelsheim for a wind farm project. Beginning in
 2027, three wind turbines were to contribute to Germany’s energy transition. In
 return, the municipality would benefit from one hundred thousand euros in
 annual lease revenue per wind turbine, discounted electricity, and business tax
@@ -31,7 +38,7 @@ In retrospect, the emergence of opposing camps can be traced through
 conversations with local residents as well as the websites of the *Freie
 Landschaft Ostelsheim e.V. (FLO)* association and the *Initiative pro Windkraft
 Ostelsheim e.V. (PRO)*. While the PRO initiative supported the construction of
-the wind farm through factual arguments and a progressive stance, FLO members
+the wind farm through scientific arguments and a progressive stance, FLO members
 opposed the project due to their strong attachment to their homeland. Their
 arguments departed from the scientific consensus and the information the
 Stadtwerke Tübingen had provided.
@@ -90,8 +97,7 @@ minimal group paradigm, also agreeing with their broader line of reasoning.
 ## Windmills and Points of Light
 
 In 1935, Muzafer Sherif investigated the influence of the group on an
-individual’s perception using the autokinetic effect. This is an optical-
-physical illusion in which a fixed point of light in a dark room is perceived
+individual’s perception using the autokinetic effect. This is an optical-physical illusion in which a fixed point of light in a dark room is perceived
 as moving. When test subjects estimated the range of motion on their own, their
 estimates varied widely. However, when several test subjects in a group voiced
 their estimates aloud, these estimates converged over time toward a social
@@ -106,7 +112,7 @@ shifted depending on group affiliation. The left side of the photomontage
 depicts the physical forecast by Stadtwerke Tübingen, but on the right side,
 one sees the psychological perception that prevails as a social norm within the
 FLO group. The latter was reflected in the group’s informational flyers and on
-its website .
+its website.
 
 **Photomontage of the Wind Farm Projections**
 
@@ -117,15 +123,15 @@ dramatized version by the Freie Landschaft Ostelsheim e.V.  association, set
 against a blue sky.*
 
 
-## Is history repeating itself?
+## Shared Goals?
 
 To meet climate protection targets by 2030, an additional 749 wind turbines in
 Baden-Württemberg are currently in the permitting process, have already been
 approved, or are about to go into operation. It is expected that further
 conflicts at the local level will follow. In the case of Ostelsheim, neither
 open communication nor contact between the groups involved was sufficient to
-prevent hostility, let alone reduce it. The aftermath of the conflict is still
-felt today, and mutual animosity persists.  
+prevent hostility, let alone reduce it. From asking locals, I could infer that 
+the aftermath of the conflict is still felt today, and mutual animosity persists.  
 
 The theory of realistic group conflict suggests that tensions can be reduced by
 pursuing overarching goals. That is, by working on goals that are necessary for
@@ -134,12 +140,9 @@ sides. One example would be to increase economic incentives for the use of
 local energy sources such as wind and solar power in order to reduce dependence
 on foreign energy imports and to communicate this clearly to the population. In
 the future, communities planning to build a wind turbine should make use of
-this insight. Whether conflict is inevitable in democratic processes remains an
-open question.
+this insight. Whether group conflict is inevitable in democratic processes
+remains an open question.
 
 Even if the decision was not based on any scientific grounds: Perhaps it showed
 people who felt that politics did not take them seriously, patronized them, or
 forgot about them, that their voice counts.
-
-This text was largely translated using DeepL (free version).  The German
-original and the academic version of the essay are available here: /assets/src

@@ -1,9 +1,9 @@
 --- 
 layout: post 
-title:  "The Influence of Uncertain Alternative Information on the 
+title:  "Post: The Influence of Uncertain Alternative Information on the 
         Continued Influence Effect" 
 date:   2026-03-26 
-categories: university psychology paper 
+categories: uni psy paper 
 ---
 
 ***Abstract***
@@ -27,7 +27,6 @@ of mental models. Future research could examine more realistic user interfaces,
 such as online forums and news services. This could help investigate the
 influence of the medium on the Continued Influence Effect and clarify whether
 misinformation spreads more easily online.*
-
 
 
 Over the past few decades, media culture around the world has changed due to
@@ -134,7 +133,7 @@ introduction.  After the consent form was digitally signed, a questionnaire
 collected demographic data such as age and gender. Then the experiment began
 with a click on “Next.” The newspaper article “Düsseldorf Drug Dealer Found
 Dead” appeared sentence by sentence on the screen. Clicking the “Next” button
-with the mouse displayed the next sentence. In the fourth sentence, a piece of
+with the mouse displayed each sentence. In the fourth sentence, a piece of
 misinformation was presented. The ninth sentence was different for each
 experimental group. Either the misinformation from the fourth sentence was
 retracted, or it was retracted and a certain or uncertain alternative piece of

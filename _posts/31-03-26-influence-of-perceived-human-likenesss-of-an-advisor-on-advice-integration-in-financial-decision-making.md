@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "The Influence of Perceived Human-Likeness of an Advisor on Advice
+title:  "Paper: The Influence of Perceived Human-Likeness of an Advisor on Advice
         Integration in Financial Decision-Making" 
 date:   2026-03-31
-categories: university psychology research
+categories: uni psy research
 ---
 
 The rapid integration of artificial intelligence into daily life underscores

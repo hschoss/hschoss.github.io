@@ -1,178 +1,217 @@
 ---
 layout: post
-title:  "My Homelab"
+title:  "hosting LLMs in my Homelab"
 date:   2026-05-07 10:00:00
 categories: linux infra
 ---
 
-## information check
+In my third semester studying psychology, I took a seminar about large
+language models and how they differ from human language abilities and
+reasoning. I really liked the topic. What I did not like was that we spent our
+time theorizing about these systems without playing around with them and
+seeing them in action. 
 
-* What is the goal and why do people care?
-  people who want to see a use case of a homelab. People who are interested in hardware topics and want to improve privay at home.
-  Hiring mangers who are looking if someon has some kind of technical ability
-  
-* Who is your audience? Who will use this or build on this?
-  hiring managers, people with interest in technology
-
-* If you want it yourself to solve some problem, then that is a good sign. Explain why you want it.
-* What is your hypothesis? I’d like everyone to have the sentence “My hypothesis is….” even if we do not include it in the paper. Is your hypothesis testable? How will you know whether it is true or not? Focusing on a hypothesis keeps you out of the trap of incremental engineering (i.e. hacking your way to slightly better numbers).
-* What is the problem/impediment that means it has not been done yet?
-* Nugget — what is your key insight that makes it doable? This is probably the single most important thing in a good paper and the hardest for students to grasp. More on this below.
-* What is your elevator pitch? That is, if you meet a senior scientist in an elevator and she asks you what your paper is about, how do you describe it in 3 sentences or fewer.
-* Teaser — what would a teaser image show to explain this core idea?
-* What are the key previous works and what do they get wrong? All papers have limitations. Find these and they point the way forward.
-* How will you evaluate your method quantitatively?
-* What is your “demo”? That is, how do you show that the idea works.
-* What are the key risks?
-* Do you have all the data you need?
-
-In my third semester studying psychology, I took a seminar about large language
-models and how they differ from human language abilities and reasoning. I
-really liked the topic. What I did not like was that we spent our time
-theorizing about these systems without playing around with them. 
-
-Everyone in the seminar had to give a presentation.
-
-When it was my turn, I followed a YouTube tutorial, installed
-Docker on my machine, and set up the open-sourced version of
-[GPT-2](https://en.wikipedia.org/wiki/GPT-2) locally.
-I left the ivory tower and showed the group hands-on, how far these
-chatbots had already evolved. 
+Everyone in the seminar had to give a presentation. When it was my turn, I
+followed a YouTube tutorial, installed Docker on my machine, and set up the
+open-sourced version of [GPT-2](https://en.wikipedia.org/wiki/GPT-2) locally.
+I left the ivory tower and showed the group hands-on, how far these chatbots
+had already evolved and i really liked the process. 
 
 In the end, I was relieved when the seminar was finally over.
 But one idea stayed with me: **You can run this technology yourself, at home.**
 
 
-## my plan
+## the thought process 
 
-A few months later i saw the cringy video of the [techbro dinner](https://www.zdfheute.de/politik/ausland/usa-trump-tech-bosse-dinner-zuckerberg-gates-cook-100.html) in the white house. 
-It was clear to me that  the myth of the effective altruist 
-went to the myth of the effective tax avoider. 
-Something in me stopped feeling comfortable that these guys own the databases
-where my interaction with these chatbots are saved.
-When the LLM's came around i thought nobody would talk about personal and emotional stuff with these machines and just use them as a search engine
-on ssteroids, but i soon talked about everything and anything with these chatbots. I didn't feel very comfortbale anymore
+### techbros
 
-its been known for years that with the power of machine learning, 
-facebook can predict you personlaity
+A few months ago i saw the cringy video of the [techbro
+dinner](https://www.zdfheute.de/politik/ausland/usa-trump-tech-bosse-dinner-zuckerberg-gates-cook-100.html)
+at the white house. At that moment, It was clear to me that the long told myth
+of the effective altruist had turned into the myth of the effective tax
+avoider. Something in me stopped feeling comfortable that these guys own the
+databases where my interaction with these chatbots are stored.
 
-That means that the people running these llms have a lot of knowledge baout us.
-https://doi.org/10.1073/pnas.1418680112
+When LLMs came around, I thought nobody would talk about personal or emotional
+things with these machines. I assumed people would simply use them as google
+on steroids. But very soon, I found myself chatting about everything and
+anything with these systems. And that made me increasingly uncomfortable.
 
-
-well up to this point this was just an estimation of being on a spectrum on 
-dimensions that were  
-
-*it is scary that tech overlords gather really detailled life information about you* 
-
-
-Another reason was that i calculated
-
-that it needs about 2-3 times the energy per prompt than a google search, which is fine i would say.
-The much more interesting part is the trainig costs
-these are calculated in Gigawatts, not Megawatts and also not Kilowatts
-
-One inference isn't that bad and is around 10 times as much energy as one google search. If this one inference saves me clicking on ten links, than this is ok.
- At that time i also calculated how much energy this thing does need. 
-
-*don't make more incentives for the big corporations to destroy ressources in 
-producing even bigger neural networks. The technology has been known for a long time now, but they only improve because they are burning more moeny and ressources.
-its economically not smart.
+For years, we have known that, thanks to machine learning, facebook can
+predict your likes and personality better than your best friends or even your
+family members. But now these corporations do not just have my likes, my
+clicks, or my browsing behavior. They have access to thoughts I do not share
+with anyone, because, well, they are my thoughts.
 
 
+### energy
 
-* build your own technical skills and learn this "world changing technology"
-instead of believing everything some coked up techbros in silicon valley tell you
-Furthermore everyone is talking about it all the time. And i cannot here it anymore.  
-Everyone is talking, talking and talking about these systems and how they will change the world.
-But who is actually capable of deploying them himself. And who is actually using this technology to improve the life of other people. 
-Considerably less people 
+Another reason is energy consumption. At first I read online that a single
+prompt uses roughly two to three times as much energy as a standard web
+search. Honestly, that seems reasonable to me. If one good answer saves me
+from opening ten different links to find the information i am looking for,
+then the trade-off is not necessarily absurd. 
 
-so the decision was clear: I want to host my own LLM locally.
+But inference is only one side of the coin. All these individual requests sum
+up to about 60 % of the total energy spent on LLMs. The remaining 40% go into
+the one-time training of these models. These estimates are based loosely on
+this [recent paper](https://doi.org/10.1016/j.rser.2025.116159).
+
+The costs of training modern LLMs is calculated in Gigawatts. Not Megawatts and
+surely not in Kilowatts. I really like this mindboggling 3blue1brown short for
+[visualization](https://www.tiktok.com/@3blue1brown/video/7439406247117344030).
+
+So my first Laptop (a 2013 MacBoo Pro), which performs a rough estimate of 100
+billion computations per second, would run for one million years in order to
+train such a model. My newest Laptop with state of the art hardware, would
+still need around 100 000 years. We are talking about a timespan from the
+first symbolic markings on bones to this day. And that would only be for
+the scale of GPT-3 which feels cute compared to newer models. 
+
+This puts into perspective how much energy goes into the production of modern
+LLMs. Yes, inference costs are high. But the production costs are immense.
+
+I want to use the technology we have created so far. But I do not want to
+create even more incentives for large corporations to build ever-bigger data
+centers by using their services.
+
+We are already at a stage where improving model quality marginally costs
+exponentially more training, more chips, more electricity, and more
+infrastructure
+
+
+### skills
+
+For the last four years, everyone has been talking about AI. Our head of
+school talked about it during our Abitur ceremony. Every boomer has an
+opinion about it on LinkedIn. And there seems to be nothing worth studying
+anymore, because you "might be replaced by AI" anyway. At the same time, the
+actual experts (people like Geoffrey Hinton or Bernhard Schölkopf) have been
+much more careful and often much more critical in how they talk and warn about
+the technology they helped to build. Instead of believing everything some
+coked-up tech CEOs in Silicon Valley say about his “world-changing technology”
+I want to see it myself. I want to know how these systems are installed, how
+they are run, what they can do, what they cannot do, and where the limits are.
+
+If this really is the next big thing, then i want to be competent to use it for 
+my advantage. Therefore i need the technical skill to deploy something that other people built for me, standing on the shoulders of giants.
+
+Combining all three of my thought patterns, the decision became clear: I wanted
+to host my own LLM locally.
 
 
 ## requirements
 
-at first i wanted 
+There are several Reddit communities dedicated to this topic:
+* Local LLAmA 
+* r/homelab
 
+In the beginning, I thought hosting an LLM on my own hardware would be like
+installing a second fridge. Just buy the thing, plug it in, configure it a
+little, and then it just runs.
 
-server hardware is expensive and it even got more expensive last year.
-That is why i looked on ebay and asked my family for old hardware. 
+It turns out that it is not that simple.
 
-i first wanted to do a 4x AMD MI 50  32 GB Rig, but i soon noticed, that the
-support won't be too great, so i switched it to 
+Not many people are actually in the demographic position to do this, because
+you need several things at once.
 
-diese überlegungen führten mich dazu darüber nachzudenken ein LLM lokal hosten zu wollen. Wie schwer kann es schon sein?
+1. You need access to a large enough shared space. Ideally, the house of your
+   parents. I cannot run this setup in my 12-square-meter student room.
 
-Ich hbae mir vor 5 Jahren einen Gaming Pc zusamengestellt und etwas mehr als ein paar Grafikkarten wird man ja nicht brauchen. dachte ich   
+2. You also need to be allowed to run loud hardware in that shared space.
+   Ideally, you have access to a small basement room where the noise does not
+   bother anyone and you can close the door. The sound compares to a mown
+   lawer.
 
-Vor zwei Jahren haben meine Eltern auch eie Solaranlage auf dem Dach installiert bekommen.
-Das bedeutet, dass wir gerade sowieso viel zu viel Strom produzierten, während alle anderen mEnshcen sich im lnad über hu hohe Energiepreise aufregten.
+3. You need access to cheap electricity. In Germany, electricity can easily
+   cost around 35 cents per kilowatt-hour, and running power-hungry hardware
+   at that price will not make you happy. There is a reason many data centers
+   are located in places where electricity is much cheaper than in most of
+   Europe.
+
+4. You need the actual hardware. This turned out to be much more difficult
+   than I expected. I started looking for parts last October, but for a long
+   time I could not find anything within my budget. Eventually, because I
+   worked for the German car industry alongside my studies, I had earned
+   enough money to enter the territory of serious hardware. If you want to run
+   serious models locally, you should probably have around 2,000 to 3,000
+   euros lying around and be willing to invest that amount into hardware.
+
+5. You need the technical skills. You should be comfortable using the
+   terminal, editing configuration files in something like Vim or Emacs,
+   dealing with networking, and have experience with booting Linux on machines.
+
+6. You need time. A lot of time. It will save you time if you read the
+   documentation first. But even then, it takes a while to get used to the
+   mental model and abstractions of Kubernetes. Your machines become
+   “nodes,” and your applications run in “pods,” and your errors are hidden
+   in LLM generated YAML files. 
+
+Thankfully, I was lucky enough to check all these boxes. I am privileged
+enough to use a room in my parents’ basement and burn some of their excess
+solar power, which I analyzed in [this](https://github.com/hschoss/solar-panels-r)
+data analysis project. I also bought the hardware relatively cheap off ebay,
+and I had already learned how to use the terminal and a proper editor at
+university. And because I am currently “only” writing my bachelor’s thesis, I
+have a reasonable amount of time to pour into this project.
+
+So yes, hosting an LLM locally is possible. But it is not just a weekend
+project. It requires space, electricity, hardware, technical skill, time, and
+a situation in life where all of these things somehow overlap.
 
 
 ## some napkin math
 
+before buying all of the hardware you need to be clear of the scope of you
+projects.
 
 
-Also organisierte ich mir die Daten aus dem Dashboard und versuchte abzuschätzen was wir für ein Delta hatten.
-in den letzten zwei Jahren haben wir fast 2 von 3  Kilowattstunden für die Einspeisung ins Netz produziert. wi
-wirkungsgrad von 80%
-dank shclechter Energiepolitik der letzten 20 Jahre bedeutet dass, dass wir für 35 cent strom beziehen und für 6 cent strom einzahlen.
-Wir verlieren also pro killowattstunde ca. 30 cent.
+Like most things in life, at some point you need exponentially more ressources
+to have a little better performance
 
-Wenn man aus einer blöden ökonomischen Brille auf das Thema schaut sieht man schnell, dass so im Jahr mehrere tausend Euro flöten gehen.
+Based on reddit this decline in performance lies somewhere between 70 B models
+and 100 B models. So my plan was clear: I want to host a 70 B model at home.
 
-Gerade so stromintensive Aufgaben wie einen server zu betreiben, würden sehr gut zu uns ins Haus passen. 
-Man müsste aber die Serverlogik mit der Stromproduktionslogik verbinden. Es wäre also die Voraussetzung, dass die Sonne scheint, dass die 
-Services laufen können. 
-So entstand meine Idee vom Green Computing. Ich hatte gemerkt, dass mir der Elfenbeinturm und das philoshophieren nicht besonders gefällt und wollte hands on Erfahrung mit
-diesen Systemen bekommen. 
-Dam
-über mehrere tage auf reddit eignetet ich mir die Grundlagen an. Ich brauche viel Compute, also GPU Power. Da könnte ich NVidia oder Amd nehmen.
-Amd ist günstiger besserer bang for buck, aber wenn ich iwssenschaftliches computing machen wollen würde, brauche ich nvidia backends.
+as a really quick way for thinking about this, you need approximately one GB
+of VRAM to run 1 Billion Parameters of a model plus 20 % of the size for
+context. 
+so for a 70 B model you should have hardware with 
 
-Wenn das nicht nur eine private sondern auch eine professionelle Angelegenheit werden sollte, lohnte es sich also am Anfang die Extrameile zu gehen
+70 GB + 14 GB = 85 GB so about 90 GB  
 
+well some think you could just take 11 times a 5060 with 8 GB VRAM and have
+enough? 
+Not really. adding multpile low level cards, doesn't give you all you need.
 
-deshalb war für mich klar, dass ich hier tief reingehen wollen würde. Ich möchte lernen technische INfrastruktur die für ein LLM Cluster nöitg ist, daheim laufen zu lassen.
-Dafürbrauch eich linux skills, aber auch kubernetes skills.
-das ist das lustige an diesem skill tree. Als ich die erste Sitzung in meinem neuen Seminar hatte, wusste ich gerade erst, was linux und UNIX war und plötzlich  ein Jahr später 
-wusste ihch plötzlich was kubernetes war und wieso es viellelicht ein mal praktisch für mich sein könnte. 
-
-Es ist eigenltich der perfekte Zeitpunkt, um dmait zu starten. DIe LLMs helfen einem dabei endlose YAML konfigurationen zu erstellen. Was in den Dateien steht, ist gar nicht so wichtig. 
-Es ist nur iwchitg, dass es deklaratiav ist und in git gemanagt und, dass ich meine infrastruktur sehr einfach zurückholen kann, wenn irgendetwas abschmiert.
-
-endlose yaml konfigurationen
+just like a team of 11 mediocre football players would outperform a team of 6
+world class football players.
 
 
 
-Security
-Wer irgendetwas für andere Leute baut, muss irgendwann auch über sicherheit nachdenken. Nicht das man andere dadurch verletzt. 
+##  on rabbit holes
+
+you really have to ask youself, which rabbit hole you want to take.
 
 
+ther are a lot of design decisions you have to make.
+I decided that kubernetes would be a good skill for me. I want to use
+Kubernets and self hosted micro services in my professional lifes, because i
+see myself in building platforms and technology related producst.
+
+If you are just interested in using paperless ai than you shouldn't really
+look into kubernetes and just use docker and be happy.
 
 
-how it started:
-* It is possible to deploy local LLM solution and have a machine think
-* i want to deploy LLMS (everybody is talking about them and that they will take their jobs, but no one is actually hosting them)
-* Big tech is selling all of our data.
-* I don't know how to do this. But i do have the ressources. I
+but if you do go down the kubernetes road you should use Talos LInux.  It is
+great. 
 
 
-why do i do this?
-* it is fun
-* i don't want to spend my whole life on a corporate server, i want to use my own servers
-* it will get easier, It is good to build valuable technology habits. "dont use everything, becasue everything comes and goes. Just be intentional)  
-*
+## grit 
 
-
-habe ihc es unterschätjzt?
-schon. Ich dachte, dass man es in 4h Stunden schaffen könnte ien funktionioerendes cluster aufzusetzen. Es brauchte bei mir aber Wochen von Anlöufen, bis ich mein erstes Kubernets Cluster auf Talos LInux laufen lassenk konnte
-ich brauchte wirklich vergliechsweise ewig, weil ich das booten noch nicht so draufhatte und talos linux sehr pingelig mit seinem boot modus
-
-
-
-wikipeida rabbit holes are great. The first one was linux and the next one is homelabbing.
+I underestimated how much time it does need.
+i thought it would be possible to get a working cluster up and running in
+maybe about 4-6 hours. Well i needed 4-6 weeks in the end to have my first
+running on Talos Linux
 
 Both are huge time sinks, but i think in regard of a career it does make sense to explore those practical areas of computing at the beginning.
 
@@ -182,14 +221,6 @@ It jsut works and that is really nice. Furthermore it is fun.
 
 And you can build technical infrastructure for your friedns and family
 
-
-
-
-it all started on reddit. As you can see in this picture this is what our home infrastructure looked like.
-And sure it worked. We had lots of networking equipment lying around because of the job of my dad, but life was to full to worry about those things
-
-
-last fall i was using chatgpts and llms(my local LLM)
 
 
 Start der Geschichte war, dass ich LLMs lokal laufen lassen wollte. Dafür bin ich auf LocalLLMs auf reddit gegangen und habe mir dort die verschiedenen homelabs angeschaut.
@@ -348,48 +379,6 @@ mein matrixcluster
 
 
 Mein Homelab ist nicht zum internet exposed und nur eines der Netzwerke ist mit VPN erreichbar. Ich wollte super sicher gehen.
-
-
-Es
-
-natürlich haben alle techbros schon meine Geischtsdaten in ihren Systemen und ich kan nihnen kaum noch etwas verstecken. Wenn ich auf einer US amerikanischen Kamera abgeleuchtet werden, kann man mittlerweile bestimmt schon sagen, dass das mien Gesicht ist. 
-Genauso wurde durch diese Companies das größte Copyright Infringement des Jahrtausends durchgesetzt. Shit happens.
-
-Aber ich kann mich dagegen wehren weiterhin diese Datenkrake zu füttern und auch meine Freunde und Familie dafür sensibilisieren.
-
-
-Zuerst dachte ich, dass niemand diesen Chatbots seine Probleme erzählen möchte. But turns out ,dass wir gerade diesen Chatbots ehrlicher als anderen Menschen gegenüber sind. Schon vor 10 Jahren konnte man nach 3 Minuten auf INstagram bessere predictions über Präferenznen durch den Algorithmus abgeben, als das die engsten Freunde konnten. Deshalb  interessiert mich  auch Data science so starkauch Data science so stark
-
-
-ch möchte ein vereinfachtes Diagram meiner Netzwerkstruktur zeigen.
-
-
-
-
-how it works
-
-both my homelabs are quite mirrored but have difffernet usecases and hardware schwerpunkte.
-
-both are consumer level fritzboxes. Next to them is a raspberry pi which handles VPN, DNS, and kubernetes backups with the borg software as 
-a fast recovery if my cluster crashes or a node dies. 
-
-this is the entry point and this can talk to the api of my solarpanels to power the cluster on and off based on the energy levels.
-it is kind of a central always running management server.
-
-on one of the pis i 
-
-There is the network of my family that is just the pi with the SATA SSD hat.
-
-And then there is my pi and my network where i can collaborate with other people and let them use my technical infrastructure i built.
-
-on my personal pi i have a sript that updates my entire linux computer every time i connect to the internet via borgbackup. This is really handy, because you can steal my whole network and i will be back on a new machine in less than 60 Minutes with the exact same files i had yesterday. 
-
-Every time i come home i plug in a hdd drive to this pi and it automatically creates an exact copy of the whole filesystem to this raspberry pi so i have a another snapshot of my backup. 
-
-I really don't want to loose any of my files.
-
-
-then there is the cluster, all nodes are running talos linux. they are managed with gitOps principles and fluxcd. both repositoreis are on my gihtub so you can look at them. I do use coding agents to keep them running, because i cannot be bothered to debug for 8 hours just to notice a wrong space in my yaml files.
 
 
 
