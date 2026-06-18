@@ -5,7 +5,6 @@ _site/
 .bundle/
 vendor/bundle/
 
-llm-prompt.markdown
 
 
 # Local/unpublished drafts
@@ -13,10 +12,14 @@ _posts/10-05-26-an-open-letter-to-the-tech-bros.md
 _posts/20-05-26-my-homelab.md
 _posts/2025-11-28-my-laptop.md
 _posts/2025-04-01-building-a-kubernetes-homelab.md
+_posts/20-05-26-my-homelab.md
+
 
 _posts/riasec.md
 how-to-be-happy-in-a-european-society.md
 verbesserung.md
 
+llm-prompt.markdown
 
+todo-liste.markdown
 

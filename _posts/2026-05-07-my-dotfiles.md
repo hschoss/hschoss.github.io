@@ -82,7 +82,7 @@ system. The material is [here](https://missing.csail.mit.edu/2019/dotfiles/),
 and i highly recommend it.
 
 If you're curious, here's [my
-configuration](https://github.com/hschoss/dotfiles) and some of the free
-software I use.
+base configuration](https://github.com/hschoss/dotfiles) and some of the [free
+software]() I use.
 
 
