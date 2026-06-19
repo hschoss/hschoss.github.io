@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "my homelab"
+title:  "My Homelab"
 date:   2026-05-07 10:00:00
 categories: linux infra
 ---

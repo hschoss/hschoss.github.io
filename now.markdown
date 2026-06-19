@@ -9,8 +9,9 @@ pages](https://nownownow.com/about).
 
 
 ### focus
-* Writing my bachelor’s thesis on Probabilistic Knowledge Structures.
-* Running my first workloads on my Kubernetes homelab.
+* Writing my bachelor’s thesis on Probabilistic Knowledge Structures and how
+  to simulate them with pisa data.
+* setting up a [tailnet](https://headscale.net/stable/) locally.
 * Working toward the advanced category in dips, pull ups and bench press on
   [strenghlevel.com](https://strengthlevel.com/).
 * Applying for several master's programs.
@@ -21,6 +22,6 @@ pages](https://nownownow.com/about).
   Rani's](https://open.spotify.com/artist/14YzutUdMwS9yTnI0IFBaD?si=pqhZcY72RaqOy6vShSEwlQ)
   new work, might go to a concert soon
 * Waiting for season 5 of Babylon Berlin
-* Planning a bikepacking tour through Europe
+* figuring out how to use nudging to invest rationally in the stock market.
 
-last updated: May 17, 2026
+last updated: June 19, 2026
