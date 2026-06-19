@@ -5,7 +5,17 @@ date:   2026-03-26
 categories: university psychology research
 ---
 
-Although subtitles are everywhere in modern digital media and movies, their
+This paper was written as part of a seminar during my fifth semester in my
+Bachelor's degree. In the seminar, we explored cognitive psychology in the
+context of media, designed the study ourselves, collected the data, and carried
+out the data analysis independently.
+
+The corresponding analysis code is available here: [analysis
+code](https://github.com/hschoss/hschoss.github.io/tree/main/assets/code/sound-and-subtitles)
+
+***Abstract***
+
+*Although subtitles are everywhere in modern digital media and movies, their
 influence on the cognitive processing of cinematic cuts remains understudied.
 In this experiment we investigated how subtitles and modality influence the
 salience of filmic cuts. Our 25 participants completed a cut detection task
@@ -22,12 +32,11 @@ critical visual information in subtitled content to avoid overtaxing viewer’s
 limited cognitive resources. Notably, post-hoc analysis revealed significantly
 slower detection for second cuts compared to first cuts. Future research
 should investigate these effects across diverse scene types and continue to
-extend the paradigm of [Papenmeyer et al. (2024)](10.31234/osf.io/n4z6y) by
-incorporating higher frequencies of cinematic cuts per clip.
+extend the paradigm of* [Papenmeyer et al. (2024)](10.31234/osf.io/n4z6y) *by
+incorporating higher frequencies of cinematic cuts per clip.*
 
 
-
-Nowadays, the average German person spends over six and a half hours every day
+Nowadays, the average German person spends over six and a half hours per day
 consuming media, half of which is video based and less than 15% being text
 based ([ARD/ZDF-Forschungskommission,
 2024](https://www.ard-zdf-medienstudie.de/ )). Whereas previous generations
@@ -235,7 +244,7 @@ Viewing Mode and Modality*
 
 ![Cut Detection Performance and Cut Detection Response Time as a Function of
 Viewing Mode and
-Modality](/assets/images/cdp-cdr-as-a-function-of-viewing-mode-and-modality.png)
+Modality](/assets/images/figure-01-cut-detection-by-modality.svg)
 
 *Note.* Behavioral results for Cut Detection Performance (left panel) and cut
 detection response time (right panel) as a function of subtitle condition and
@@ -272,7 +281,7 @@ interaction between modality and subtitles, *F*(1, 24) = 0.36, *p* = .552, ηₚ
 cuts*
 
 ![Cut Detection Reponse Time across all four Conditions for the first and
-second cuts](/assets/images/cdr-first-and-second-cuts.png)
+second cuts](/assets/images/figure-02-cdr-across-conditions.svg)
 
 *Note.* Distribution of response times for first (lightgrey) and second
 (darkgrey) cinematic cuts across experimental conditions
@@ -380,18 +389,18 @@ even more cuts and hypothesize about the temporal effects of different cut types
 
 *Participant Characteristics Regarding Subtitle Usage and Watch Hours Per Week*
 
-| Characteristic              | n  | %  |
-|---------------------------|----|----|
+| Characteristic                          | n  | %  |
+|-----------------------------------------|----|----|
 | **Movie / Series Watch Hours per Week** |    |    |
-| Less than one hour        | 3  | 12 |
-| Between one and two hours | 4  | 16 |
-| Between three and four hours | 4 | 16 |
-| More than five hours      | 14 | 56 |
-| **Subtitle Usage**        |    |    |
-| Never                     | 7  | 28 |
-| Rarely                    | 10 | 32 |
-| Often                     | 7  | 24 |
-| Always                    | 4  | 16 |
+| Less than one hour                      | 3  | 12 |
+| Between one and two hours               | 4  | 16 |
+| Between three and four hours            | 4  | 16 |
+| More than five hours                    | 14 | 56 |
+| **Subtitle Usage**                      |    |    |
+| Never                                   | 7  | 28 |
+| Rarely                                  | 10 | 32 |
+| Often                                   | 7  | 24 |
+| Always                                  | 4  | 16 |
 
 *Note.* Data was collected via a self-report questionnaire presented immediately following the experimental task.
 
@@ -411,3 +420,4 @@ Peirce, J., Gray, J. R., Simpson, S., MacAskill, M., Höchenberger, R., Sogo, H.
 Smith, T. J., & Henderson, J. M. (2008). Edit blindness: The relationship between attention and global change blindness in dynamic scenes. *Journal of Eye Movement Research, 2*(2). https://doi.org/10.16910/jemr.2.2.6
 
 Waxman, J. B., & Goldie, S. J. (2023). Cognitive theory of multimedia learning: Applying cognitive load theory to the design of educational multimedia (Perspectives from the CHDS Media Hub) [Monograph]. Center for Health Decision Science, Harvard T.H. Chan School of Public Health. https://media.repository.chds.hsph.harvard.edu/static/filer_public/ca/62/ca625803-3d73-4855-b3e1-765870ce3772/2023_jwaxman_monograph_cogtheory_multimed.pdf
+

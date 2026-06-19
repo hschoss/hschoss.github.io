@@ -1,0 +1,87 @@
+Codebook for data_combined_prepared_for_analysis.csv
+
+VAR	VALUE	MEANING
+
+participant		participant id
+
+age		Age (in years)
+
+sex		Sex
+sex	weiblich	female
+sex	männlich	male
+sex	divers	non-binary
+
+native_language		free text response of participants when asked to enter their native language (mother tongue)
+
+trials_practice.thisTrialN	[0-9]	practice trial within the experiment (in the order that they occurred within the experiment for this participant)
+
+trials_experiment.thisTrialN	[0-159]	experiment trial within the experiment (in the order that they occurred within the experiment for this participant)
+
+item	[1-170]	item id (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+
+item_type		item type (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+item_type	practice	practice item
+item_type	experimental	experimental items planned to be analyzed (negative sentence + word in lexical decision task)
+item_type	filler	filler items (both negative sentences with non-words in lexical decision task and affirmative sentences (both word and non-word trials))
+
+polarity		polarity of sentence (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+polarity	negative	negative sentence (e.g. "Dort ist kein ...")
+polarity	affirmative	affirmative sentence (e.g. "Dort ist ein ...")
+
+prime_noun		prime noun used in sentence (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+
+sentence		sentence presented as audio file (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+
+prime_target_relation		relation between prime noun presented in sentence and source_word that was the basis for the word/non-word presented in lexical decision task (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+prime_target_relation	Negated Entity	source_word equals prime noun
+prime_target_relation	Good Alternative	source_word is "good alternative" of prime noun
+prime_target_relation	Worse Alternative	source_word is "worse alternative" of prime noun
+prime_target_relation	Unrelated	source_word is semantically unrelated to prime noun
+
+delay		delay between offset of setence and onset of lexical decision task (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+delay	0	0 seconds
+delay	0.75	0.75 seconds
+
+source_word		word used to create target in lexical decision task (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+
+target		word presented in lexical decision task; equals source_word in word trials and manually constructed from source_word in non-word trials (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+
+target_type		target type in lexical decision task (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+target_type	word	word presented in lexical decision task
+target_type	non-word	non-word presented in lexical decision task
+
+sentence_audio_file		file name of the audio file used for the auditory presentation of the sentence (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+
+lgSUBTLEX		lgSUBTLEX of target word in experimental items [based on http://crr.ugent.be/subtlex-de/SUBTLEX-DE%20cleaned%20with%20Google00%20frequencies.zip] (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+
+word_length		word length of target word in experimental items (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+
+balancing_list	[1-8]	balancing list of experimental items presented for respective participant (see session files trials_balancing_[1-8].xlsx)
+
+show_repetition_task		should repetition task replacement be presented for respective sentence? (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+show_repetition_task	yes	repetition task replacement was presented
+show_repetition_task	no	repetition task replacement was skipped
+
+correct_key_response	[j,f]	key that participants needed to press to respond correctly to respectivie lexical decision task (see session files trials_practice.xlsx and trials_balancing_[1-8].xlsx)
+
+key_resp.keys	[j,f]	key that was pressed by participants in the lexical decision task
+
+key_resp.corr		whether key response of participant in the lexical decision task was correct
+key_resp.corr	0	response was incorrect
+key_resp.corr	1	response was correct
+
+key_resp.rt		response time in seconds for the lexical decision task (measured from the time of the onset of the word/non-word)
+
+repetition_task_replacement_cur_sentence		word presented in the repetition task replacement sentence "Dort ist X", with X being the content of this row (note: for trials without repetition task replacement the variable contains the word "mute")
+
+repetition_task_replacement_mouse.clicked_name		response given by participants in the repetition task replacement
+repetition_task_replacement_mouse.clicked_name	text_ein_e	clicked on "Dort ist ein/e"
+repetition_task_replacement_mouse.clicked_name	text_kein_e	clicked on "Dort ist kein/e"
+
+repetition_task_replacement_correct		whether the response given in repetition task replacement was correct
+repetition_task_replacement_correct	1	response was correct
+repetition_task_replacement_correct	0	response was incorrect
+
+materials_known		response given to question whether already participated in or seen the same experiment before
+materials_known	1	yes, already participated in or seen the same experiment before
+materials_known	9	no

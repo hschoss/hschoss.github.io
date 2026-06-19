@@ -1,0 +1,45 @@
+﻿instruction_text,thisN,thisTrialN,thisRepN,key_resp_instruction.keys,key_resp_instruction.rt,key_resp_instruction.duration,clip_file,clip_path,sound_path,movie,subtitles,n_cut,clip_num,first_cut,second_cut,clip_duration,attention_check_question,attention_check_correct,attention_check_distractor_1,attention_check_distractor_2,attention_check_distractor_3,instruction_trials.thisRepN,instruction_trials.thisTrialN,instruction_trials.thisN,instruction_trials.thisIndex,practice_trials.thisRepN,practice_trials.thisTrialN,practice_trials.thisN,practice_trials.thisIndex,thisRow.t,notes,instructions.started,text_instruction.started,key_resp_instruction.started,instructions.stopped,instruction_trials.key_resp_instruction.keys,instruction_trials.key_resp_instruction.rt,instruction_trials.key_resp_instruction.duration,informed_consent.started,slider_informed_consent.started,text_informed_consent.started,informed_consent.stopped,slider_informed_consent.response,slider_informed_consent.rt,begin_practice.started,begin_practice_text.started,begin_practice.stopped,Practice_clip_name,Practice_video_used,Practice_audio_used,Practice_modality,Practice_subtitles,Practice_attention_check,practice_clip.started,prac_feedback.started,participant,session,date,expName,expVersion,psychopyVersion,frameRate,expStart,
+"Herzlich willkommen!
+
+Vielen Dank, dass Sie an unserer Studie teilnehmen. Die Untersuchung wird insgesamt etwa 35 Minuten in Anspruch nehmen.
+
+Bevor wir beginnen, beachten Sie bitte folgende Voraussetzungen für die Teilnahme:
+• Sie sind mindestens 18 Jahre alt.
+• Ihre Muttersprache ist Deutsch.
+
+(Drücken Sie die Leertaste, um fortzufahren)",0,0,0,space,0.5563334999897052,None,,,,,,,,,,,,,,,,0,0,0,0,,,,,0.031806499988306314,,0.006943699991097674,0.031806499988306314,0.031806499988306314,0.6084970000083558,space,0.5563334999897052,None,,,,,,,,,,,,,,,,,,698632,001,2026-03-30_16h20.56.487,exp_sofc,,2025.2.3,60.46588967621491,2026-03-30 16h20.56.982677 +0200,
+"Ablauf der Studie
+
+Ihnen werden in schneller Abfolge viele kurze Filmclips gezeigt.
+Ihre Aufgabe ist einfach:
+
+Drücken Sie jedes Mal die Leertaste, wenn Sie einen Filmschnitt (Cut) erkennen.
+
+Zusätzlich werden Ihnen gelegentlich kurze Verständnisfragen zu den gezeigten Clips gestellt.
+
+(Drücken Sie die Leertaste, um fortzufahren),",1,1,0,space,0.19451089997892268,None,,,,,,,,,,,,,,,,0,1,1,1,,,,,0.6294214999943506,,0.6085990999999922,0.6294214999943506,0.6294214999943506,0.8387156999961007,space,0.19451089997892268,None,,,,,,,,,,,,,,,,,,698632,001,2026-03-30_16h20.56.487,exp_sofc,,2025.2.3,60.46588967621491,2026-03-30 16h20.56.982677 +0200,
+"Freiwilligkeit Ihrer Teilnahme
+
+Ihre Teilnahme an dieser Studie ist absolut freiwillig. Sie können das Experiment jederzeit und ohne Angabe von Gründen abbrechen, ohne dass Ihnen daraus irgendwelche Nachteile entstehen.
+
+Sollten Sie die Studie vorzeitig beenden, werden Ihre bis dahin erhobenen Daten umgehend gelöscht und nicht gespeichert.
+
+(Drücken Sie die Leertaste, um fortzufahren)",2,2,0,space,0.1391046000062488,None,,,,,,,,,,,,,,,,0,2,2,2,,,,,0.8604961000091862,,0.8388803999987431,0.8604961000091862,0.8604961000091862,1.0058989000099245,space,0.1391046000062488,None,,,,,,,,,,,,,,,,,,698632,001,2026-03-30_16h20.56.487,exp_sofc,,2025.2.3,60.46588967621491,2026-03-30 16h20.56.982677 +0200,
+"Datenschutz und Anonymität
+
+Die Erhebung und Auswertung Ihrer Daten erfolgt am Fachbereich Psychologie der Universität Tübingen und ist vollständig anonym. Ihr Name wird zu keinem Zeitpunkt erfragt oder gespeichert. Niemand wird Ihre Daten mit Ihrer Person in Verbindung bringen können.
+
+Die anonymisierten Experimentaldaten werden nach Abschluss der Erhebung für mindestens 10 Jahre gespeichert und zu Forschungszwecken in einer öffentlichen Datenbank zugänglich gemacht.
+
+(Drücken Sie die Leertaste, um fortzufahren),",3,3,0,space,0.11317060000146739,None,,,,,,,,,,,,,,,,0,3,3,3,,,,,1.0994684000033885,,1.006031900004018,1.0994684000033885,1.0994684000033885,1.214643299987074,space,0.11317060000146739,None,,,,,,,,,,,,,,,,,,698632,001,2026-03-30_16h20.56.487,exp_sofc,,2025.2.3,60.46588967621491,2026-03-30 16h20.56.982677 +0200,
+"Einverständniserklärung
+
+Bitte lesen Sie die folgende Erklärung aufmerksam durch:
+
+Ich bestätige, dass ich über 18 Jahre alt bin und ausreichend Zeit hatte, mich für die Teilnahme zu entscheiden. Ich wurde über die Erhebung, Verarbeitung und öffentliche Zugänglichmachung meiner anonymisierten Daten angemessen informiert.
+Ich bin mir bewusst, dass ich das Experiment jederzeit abbrechen kann.
+
+(Drücken Sie die Leertaste, um fortzufahren)",4,4,0,space,0.14760140000726096,None,,,,,,,,,,,,,,,,0,4,4,4,,,,,1.2388716000132263,,1.214779500005534,1.2388716000132263,1.2388716000132263,1.3980993999866769,space,0.14760140000726096,None,,,,,,,,,,,,,,,,,,698632,001,2026-03-30_16h20.56.487,exp_sofc,,2025.2.3,60.46588967621491,2026-03-30 16h20.56.982677 +0200,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3992116999870632,1.4142633999872487,1.4142633999872487,3.3679755000048317,ich stimme zu,1.9530318999895826,,,,,,,,,,,,698632,001,2026-03-30_16h20.56.487,exp_sofc,,2025.2.3,60.46588967621491,2026-03-30 16h20.56.982677 +0200,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.368024900002638,3.385386699985247,8.37533069998608,,,,,,,,,698632,001,2026-03-30_16h20.56.487,exp_sofc,,2025.2.3,60.46588967621491,2026-03-30 16h20.56.982677 +0200,
+,0,0,0,,,,clip_wurst_09_sub_1,clips/clip_wurst_09_sub_1.mp4,audios/clip_wurst_09_sub_1.mp3,wurst,sub,1,9,3666.0,NA,11267,Wer sind die alten Menschen wahrscheinlich?,Großeltern,Eltern,Geschwister,Nachbarn,,,,,0,0,0,10,,,,,,,,,,,,,,,,,,,clip_hund_06_nosub_0,clips/clip_hund_06_nosub_0.mp4,audios/clip_hund_06_nosub_0.mp3,audiovisual,nosub,True,8.520930200000294,,,,,,,,,,

@@ -1,0 +1,112 @@
+5.3641 	INFO 	Loaded monitor calibration from ['2026_01_13 13:02']
+5.3772 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [2560, 1600]. Using actual size
+5.7233 	INFO 	Using renderer 'AMD Radeon(TM) Graphics' for graphics
+5.7233 	INFO 	OpenGL version supported by driver is 4..
+5.7599 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022BA34F8DF0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022BA34FB520>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022BA3854C70>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([2560, 1600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.7600 	EXP 	window1: backgroundImage = ''
+5.7600 	EXP 	window1: backgroundFit = 'none'
+6.1081 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.1081 	EXP 	window1: recordFrameIntervals = False
+6.2908 	EXP 	window1: recordFrameIntervals = True
+6.4726 	EXP 	Screen (0) actual frame rate measured at 60.47Hz
+6.4726 	EXP 	window1: recordFrameIntervals = False
+6.5189 	INFO 	keyboard.Keyboard is using ptb backend.
+6.5189 	EXP 	exp_sofc: status = STARTED
+6.5389 	EXP 	Created text_instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_instruction', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.5887 	EXP 	Created slider_informed_consent = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Noto Sans', granularity=1.0, labelColor=None, labelHeight=np.float64(0.05), labelWrapWidth=None, labels=('ich stimme nicht zu', 'ich stimme zu'), lineColor=None, markerColor=None, name='slider_informed_consent', opacity=None, ori=0.0, pos=array([ 0. , -0.3]), readOnly=False, self=UNKNOWN, size=array([0.8 , 0.05]), startValue=0, style='radio', styleTweaks=[], ticks=array([0, 1]), units='height', win=Window(...))
+6.6348 	EXP 	Created text_informed_consent = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_informed_consent', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.6527 	EXP 	Created begin_practice_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='begin_practice_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.6653 	EXP 	Created prac_fixation_cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='prac_fixation_cross', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+6.6750 	WARNING 	Using `sdl2` for audio playback via `ffpyplayer`. This is not recommended for applications requiring precise audio-visual synchronization.
+6.8163 	INFO 	Loaded psychtoolbox audio version 3.0.19.696976569
+6.8950 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: Speakers (Senary Audio)
+6.9016 	INFO 	Created stream for speaker device: Speakers (Senary Audio) (4.0)
+6.9030 	EXP 	prac_sound: sampleRate = 48000
+6.9031 	EXP 	prac_sound: channels = None
+6.9134 	EXP 	Sound prac_sound set volume 1.000
+6.9148 	EXP 	Created prac_feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='prac_feedback', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.9153 	EXP 	Created prac_question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='prac_question', opacity=1, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.9158 	EXP 	Created prac_options = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='prac_options', opacity=1, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.9276 	EXP 	Created begin_experiment_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='begin_experiment_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.9755 	EXP 	Created exp_fixation_cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='exp_fixation_cross', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+6.9757 	WARNING 	Using `sdl2` for audio playback via `ffpyplayer`. This is not recommended for applications requiring precise audio-visual synchronization.
+6.9888 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: Speakers (Senary Audio)
+6.9929 	INFO 	Created stream for speaker device: Speakers (Senary Audio) (4.0)
+6.9943 	EXP 	exp_sound: sampleRate = 48000
+6.9943 	EXP 	exp_sound: channels = None
+7.0035 	EXP 	Sound exp_sound set volume 1.000
+7.0044 	EXP 	Created exp_question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='exp_question', opacity=1, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.0049 	EXP 	Created exp_options = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='exp_options', opacity=1, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.0100 	EXP 	Created exp_pause_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='exp_pause_text', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.0105 	EXP 	Created exp_countdown = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='exp_countdown', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.0110 	EXP 	Created text_end = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_end', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+0.0029 	EXP 	slider_informed_consent: autoLog = True
+0.0029 	EXP 	slider_informed_consent: ticks = array([0, 1])
+0.0029 	EXP 	slider_informed_consent: styleTweaks = []
+0.0029 	EXP 	slider_informed_consent: styleTweaks = []
+0.0029 	EXP 	slider_informed_consent: styleTweaks = []
+0.0029 	EXP 	slider_informed_consent: styleTweaks = []
+0.0029 	EXP 	slider_informed_consent: ticks = array([0, 1])
+0.0029 	EXP 	slider_informed_consent: contrast = 1.0
+0.0029 	EXP 	slider_informed_consent: markerPos = 0
+0.0029 	EXP 	slider_informed_consent: autoLog = True
+0.0029 	EXP 	prac_clip: autoLog = True
+0.0029 	EXP 	exp_clip: autoLog = True
+0.0067 	EXP 	Imported instructions.xlsx as conditions, 5 conditions, 1 params
+0.0069 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'instruction_text': 'Herzlich willkommen!\n\nVielen Dank, dass Sie an unserer Studie teilnehmen. Die Untersuchung wird insgesamt etwa 35 Minuten in Anspruch nehmen.\n\nBevor wir beginnen, beachten Sie bitte folgende Voraussetzungen für die Teilnahme:\n• Sie sind mindestens 18 Jahre alt.\n• Ihre Muttersprache ist Deutsch.\n\n(Drücken Sie die Leertaste, um fortzufahren)', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.0319 	INFO 	Keyboard events cleared
+0.0318 	EXP 	text_instruction: autoDraw = True
+0.5892 	DATA 	Keypress: space
+0.6084 	EXP 	Device response: <KeyPress from None: t=0.5881736000010278, value=space, duration=None>
+0.6086 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'instruction_text': 'Ablauf der Studie\n\nIhnen werden in schneller Abfolge viele kurze Filmclips gezeigt.\nIhre Aufgabe ist einfach:\n\nDrücken Sie jedes Mal die Leertaste, wenn Sie einen Filmschnitt (Cut) erkennen.\n\nZusätzlich werden Ihnen gelegentlich kurze Verständnisfragen zu den gezeigten Clips gestellt.\n\n(Drücken Sie die Leertaste, um fortzufahren),', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+0.6295 	INFO 	Keyboard events cleared
+0.6294 	EXP 	text_instruction: autoDraw = False
+0.6294 	EXP 	text_instruction: autoDraw = True
+0.7055 	EXP 	Device response: <KeyPress from None: t=0.5881736000010278, value=space, duration=0.10650160000659525>
+0.8386 	EXP 	Device response: <KeyPress from None: t=0.8239569999859668, value=space, duration=None>
+0.8388 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'instruction_text': 'Freiwilligkeit Ihrer Teilnahme\n\nIhre Teilnahme an dieser Studie ist absolut freiwillig. Sie können das Experiment jederzeit und ohne Angabe von Gründen abbrechen, ohne dass Ihnen daraus irgendwelche Nachteile entstehen.\n\nSollten Sie die Studie vorzeitig beenden, werden Ihre bis dahin erhobenen Daten umgehend gelöscht und nicht gespeichert.\n\n(Drücken Sie die Leertaste, um fortzufahren)', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+0.8569 	DATA 	Keypress: space
+0.8606 	INFO 	Keyboard events cleared
+0.8605 	EXP 	text_instruction: autoDraw = False
+0.8605 	EXP 	text_instruction: autoDraw = True
+0.9397 	EXP 	Device response: <KeyPress from None: t=0.8239569999859668, value=space, duration=0.10574300002190284>
+1.0058 	EXP 	Device response: <KeyPress from None: t=0.9996263000066392, value=space, duration=None>
+1.0060 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'instruction_text': 'Datenschutz und Anonymität\n\nDie Erhebung und Auswertung Ihrer Daten erfolgt am Fachbereich Psychologie der Universität Tübingen und ist vollständig anonym. Ihr Name wird zu keinem Zeitpunkt erfragt oder gespeichert. Niemand wird Ihre Daten mit Ihrer Person in Verbindung bringen können.\n\nDie anonymisierten Experimentaldaten werden nach Abschluss der Erhebung für mindestens 10 Jahre gespeichert und zu Forschungszwecken in einer öffentlichen Datenbank zugänglich gemacht.\n\n(Drücken Sie die Leertaste, um fortzufahren),', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+1.0956 	DATA 	Keypress: space
+1.0995 	INFO 	Keyboard events cleared
+1.0995 	EXP 	text_instruction: autoDraw = False
+1.0995 	EXP 	text_instruction: autoDraw = True
+1.1313 	EXP 	Device response: <KeyPress from None: t=0.9996263000066392, value=space, duration=0.11563109999406151>
+1.2146 	EXP 	Device response: <KeyPress from None: t=1.2126629000122193, value=space, duration=None>
+1.2147 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'instruction_text': 'Einverständniserklärung\n\nBitte lesen Sie die folgende Erklärung aufmerksam durch:\n\nIch bestätige, dass ich über 18 Jahre alt bin und ausreichend Zeit hatte, mich für die Teilnahme zu entscheiden. Ich wurde über die Erhebung, Verarbeitung und öffentliche Zugänglichmachung meiner anonymisierten Daten angemessen informiert.\nIch bin mir bewusst, dass ich das Experiment jederzeit abbrechen kann.\n\n(Drücken Sie die Leertaste, um fortzufahren)', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+1.2347 	DATA 	Keypress: space
+1.2389 	INFO 	Keyboard events cleared
+1.2389 	EXP 	text_instruction: autoDraw = False
+1.2389 	EXP 	text_instruction: autoDraw = True
+1.2651 	EXP 	Device response: <KeyPress from None: t=1.2126629000122193, value=space, duration=0.04260190000059083>
+1.3980 	EXP 	Device response: <KeyPress from None: t=1.3864905000082217, value=space, duration=None>
+1.3999 	DATA 	Keypress: space
+1.4143 	EXP 	text_instruction: autoDraw = False
+1.4143 	EXP 	slider_informed_consent: markerPos = None
+1.4143 	EXP 	slider_informed_consent: markerPos = 0
+1.4143 	EXP 	slider_informed_consent: autoDraw = True
+1.4143 	EXP 	text_informed_consent: autoDraw = True
+1.4487 	EXP 	Device response: <KeyPress from None: t=1.3864905000082217, value=space, duration=0.055597899976419285>
+3.3013 	DATA 	Mouse: Left button down, pos=(1926,349)
+3.3174 	EXP 	slider_informed_consent: markerPos = np.float64(1.0046875)
+3.3341 	EXP 	slider_informed_consent: markerPos = np.float64(1.00390625)
+3.3505 	EXP 	slider_informed_consent: markerPos = np.float64(1.00390625)
+3.3513 	DATA 	Mouse:  Left button up, pos=(1925,343)
+3.3673 	EXP 	slider_informed_consent: markerPos = np.int64(1)
+3.3854 	EXP 	slider_informed_consent: autoDraw = False
+3.3854 	EXP 	text_informed_consent: autoDraw = False
+3.3854 	EXP 	begin_practice_text: autoDraw = True
+8.3828 	EXP 	Imported practice.xlsx as conditions, 12 conditions, 15 params
+8.3831 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'clip_file': 'clip_wurst_09_sub_1', 'clip_path': 'clips/clip_wurst_09_sub_1.mp4', 'sound_path': 'audios/clip_wurst_09_sub_1.mp3', 'movie': 'wurst', 'subtitles': 'sub', 'n_cut': 1, 'clip_num': 9, 'first_cut': 3666.0, 'second_cut': 'NA', 'clip_duration': 11267, 'attention_check_question': 'Wer sind die alten Menschen wahrscheinlich?', 'attention_check_correct': 'Großeltern', 'attention_check_distractor_1': 'Eltern', 'attention_check_distractor_2': 'Geschwister', 'attention_check_distractor_3': 'Nachbarn', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+8.3832 	INFO 	keyboard.Keyboard is using ptb backend.
+8.4060 	INFO 	Opening movie file: C:\Users\hannes\Documents\soundtracks-and-subtitles\exp_sofc\clips\clip_hund_06_nosub_0.mp4
+8.5039 	EXP 	prac_sound: sampleRate = 48000
+8.5689 	INFO 	saved data to C:\Users\hannes\Documents\soundtracks-and-subtitles\exp_sofc\data\698632_exp_sofc_2026-03-30_16h20.54.402.psydat
+8.5703 	INFO 	saved data to 'C:\\Users\\hannes\\Documents\\soundtracks-and-subtitles\\exp_sofc\\data\\698632_exp_sofc_2026-03-30_16h20.54.402.csv'
+8.5860 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+8.6808 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

@@ -40,7 +40,7 @@ ergonomics. Now, my hands stay on the keyboard, my arms remain in a neutral
 position, and I no longer need to constantly reach for a mouse. As a result, my
 posture has improved and i feel less strained than before.
 
-![Ergonomic Mouse](/assets/images/ergonomic-mouse.jpg)
+![Ergonomic Mouse](/assets/images/ergonomic-mouse.webp)
 
 *I know multiple people who, after developing hand pain from “normal” mouse
 usage, ended up using something like this crane navigation joystick just to open
@@ -74,7 +74,8 @@ It depends on how often you use a computer and whether you're drawn to thinking
 about how you work. As a rough guide,
 [this](https://m.xkcd.com/1205/index.html) xkcd chart is often referenced:
 
-![Is It Wort the Time? Mouse](/assets/images/is-it-worth-the-time.png)
+[![xkcd 1205: Is It Worth the
+Time?](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)](https://xkcd.com/1205/)
 
 I first learned about managing dotfiles through one of the best open
 educational resources I've come across and later adapted the ideas to my own

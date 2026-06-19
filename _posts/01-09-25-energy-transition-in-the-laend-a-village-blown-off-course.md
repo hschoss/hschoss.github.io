@@ -115,6 +115,7 @@ FLO group. The latter was reflected in the group’s informational flyers and on
 its website.
 
 **Photomontage of the Wind Farm Projections**
+![autokinetic Windmills](/assets/images/autokinetic-windmills.webp)
 
 *This photomontage illustrates the conflicting predictions regarding the
 appearance of the planned wind farm. On the left, in the cloud-covered image,

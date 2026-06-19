@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title:  "Post: The Influence of Uncertain Alternative Information on the 
+title:  "The Influence of Uncertain Alternative Information on the 
         Continued Influence Effect" 
 date:   2026-03-26 
 categories: uni psy paper 
@@ -183,10 +183,13 @@ the W<sub>u</sub> condition (*n* = 253), or the W<sub>s</sub> condition (*n* =
 
 **Figure 1**
 
-*Mean of the Inference Scores*
+*Mean Response times for different prime target relations with 
+and without delay*
 
+![Mean Response times for different prime target relations with and without
+delay](assets/images/figure-01-response-time-by-delay-relation.svg)
 
-Note: The bars indicate the standard errors.
+*Note:* The bars indicate the standard errors.
 
 As shown in Figure 1, participants in the W<sub>0</sub> condition (*M* = 0.69,
 *SD* = 0.46) had significantly higher inference scores than those in the

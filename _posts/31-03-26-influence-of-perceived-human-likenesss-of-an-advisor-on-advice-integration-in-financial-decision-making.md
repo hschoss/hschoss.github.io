@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Paper: The Influence of Perceived Human-Likeness of an Advisor on Advice
+title:  "The Influence of Perceived Human-Likeness of an Advisor on Advice
         Integration in Financial Decision-Making" 
 date:   2026-03-31
 categories: uni psy research
@@ -154,7 +154,7 @@ dependent variable was the Weight of Advice, which quantifies the extent to
 which participants revised their initial judgments following an advisor's
 recommen- dation, calculated using the following formula:
 
-woa = (Final INvestment - Initial Investment) / Advice - INitial investment)
+woa = (Final Investment - Initial Investment) / Advice - INitial investment)
 
 To control potential order and carryover effects, we used a complete
 counterbalanced block design. Participants were randomly assigned to one of

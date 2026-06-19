@@ -2,8 +2,6 @@
 
 
 # Ländle
-* SVG image **Photomontage of the Wind Farm Projections** 4:3 webp? 
-* german academic version of the text
 * sources from the paper
 
 # Influence of uncertain alternative actiavtion
@@ -11,4 +9,7 @@
 * data and analysis script
 * preregistration
 * Sources
+
+# The Influence of Perceived Human-Likeness of an Advisor on Advice Integration in Financial Decision-Making
+* svg version of graphics
 

@@ -5,7 +5,7 @@ date:   2026-05-07 10:00:00
 categories: linux infra
 ---
 
-# why i wanted to run an LLM at home
+# the first contact
 In my third semester studying psychology, I took a seminar about large
 language models and how they differ from human language abilities and
 reasoning. I really liked the topic. What I did not like was that we spent our
@@ -24,8 +24,7 @@ But one idea stayed with me: **You can run this technology yourself, at home.**
 ## the thought process 
 My decision to run high-performance computing hardware at home was not instant. It came from three thoughts that slowly started pointing in the same direction.
 
-
-### fear of techbros
+### 01 - fear of techbros
 A few months ago i saw the cringy video of the [techbro
 dinner](https://www.zdfheute.de/politik/ausland/usa-trump-tech-bosse-dinner-zuckerberg-gates-cook-100.html)
 at the white house. At that moment, It was clear to me that the long told myth
@@ -36,16 +35,15 @@ databases where my interaction with these chatbots are stored.
 When LLMs came around, I thought nobody would talk about personal or emotional
 things with these machines. I assumed people would simply use them as google
 on steroids. But very soon, I found myself chatting about everything and
-anything with these systems. And that made me increasingly uncomfortable.
+anything with these systems, which made  that made me increasingly uncomfortable.
 
-For years, we have known that thanks to machine learning facebook can
-predict your next likes and personality test scores better than your best
-friends or even your family members. But my chat history with multiple LLM
-providers goes further. These corporations now have access to my thoughts,
-which I do not want to share with anyone, because, well they are *my*
-thoughts.
+For years, we have known that thanks to machine learning facebook can predict
+your next likes and even personality traits better than your best friends.
+My chat history with multiple LLM providers goes much further than that. These
+corporations now have access to thoughts I do not want to share with anyone,
+because, well, they are *my* thoughts.
 
-### exorbitant energy costs
+### 02 - exorbitant energy costs
 At first I read that a single
 prompt uses roughly two to three times as much energy as a standard web
 search. Honestly, that did not sound absurd to me. If one good answer saves me
@@ -76,37 +74,61 @@ We already crossed the stage where improving model quality marginally costs
 exponentially more training, more chips, more electricity, and more water.
 
 
-### building skills
+### 03 - building skills
 For the last four years, everyone has had an opinion about AI. Our head of
-school talked about it during our Abitur ceremony. Every boomer has an
-take. And there seems to be nothing worth studying
-anymore, because you "might be replaced by AI" anyway. At the same time, the
-actual experts (people like Geoffrey Hinton or Bernhard Schölkopf) speak about
-these systems with much more care and criticism than the CEOs selling them. 
-Instead of believing everything some coked-up tech CEOs in Silicon Valley say
-about this “world-changing technology”, I want to understand it myself. I want
-to know how these systems are installed, how they run, what they can do, what
-they cannot do, and where their limits lie.
+school talked about it during our Abitur ceremony. Every boomer has an take.
+And there seems to be nothing worth studying anymore, because you "might be
+replaced by AI" anyway. At the same time, the actual experts (people like
+Geoffrey Hinton or Bernhard Schölkopf) speak about these systems with much
+more care and criticism than the CEOs selling them. Instead of believing
+everything some tech CEOs in Silicon Valley say about this “world-changing
+technology”, I want to understand it myself. I want to know how these systems
+are installed, how they run, what they can do, what they
+cannot do, and where their limits lie.
 
 If this really is the next big thing, then i want to be competent to use it for 
 my advantage. Therefore i need the technical skill to deploy something that other people built for me, standing on the shoulders of giants.
 
-## requirements
-But how do you host your Local LLM. My strategy was quite simple. Learning by 
 
+## how to get started
 
-There are several Reddit communities dedicated to this topic:
-* r/Local LLAmA 
-* r/homelab
+![Passercluster before and after](/assets/images/passercluster-before-after.webp)
 
-In the beginning, I thought hosting an LLM on my own hardware would be like
-installing a second fridge. Just buy the thing, plug it in, configure it a
-little, and then it just runs. It turns out that it is not that simple.
+There are countless subreddits, blog posts, and YouTube videos
+about homelabs. That is helpful but in the the beginning, you should get your
+hands dirty as soon as possible.
+
+Look at what you already have. Upgrade an SSD and some RAM (if you can afford
+it) and try to flash an standard linux server image on the machine.
+Thankfully, my parents already had a network cabinet  It had been severely
+neglected for years and desperately needed some love. Before I bought anything
+new, I started by cleaning it up, sorting cables, checking what devices were
+already there, and trying to understand how everything was connected.
+
+After that, I started learning the basics of our FritzBox and the local
+network. I learned how to find devices, how to assign names and IP addresses,
+and how to `ping` machines in the same network. Very basic stuff, but also the
+foundation for everything else.
+
+Just like with Linux, I chose the extra deep route. I am still relatively
+young, I have the time to learn, and I want to build skills that will still be
+useful in a few years and i can use profesionally. Even with only old laptops
+and desktop PCs, you can already run almost all homeserver services you might
+want. And that is exactly what I did. I started with services that were
+actually useful for my family:
+
+- **Nextcloud** for files and shared storage
+- **Jellyfin** for media
+- **Immich** for photos and videos
+
+## going hardcore mode 
+
+And what is the logical next step after running a few homeservices? Yeah,
+completely overdoing it. That is why i decided to buy old
+server hardwrae. Before you can think about going down this route, we first
+have to check if you have the right demographic position for this project.
 
 ### favourable demographics
-
-Not many people are actually in the demographic position to do this, because
-you need several things at once.
 
 1. You need access to a large enough shared space. Ideally, the house of your
    parents. I cannot run this setup in my 12-square-meter student room.
@@ -140,7 +162,7 @@ you need several things at once.
    “nodes,” and your applications run in “pods,” and your errors are hidden
    in LLM generated YAML files. 
 
-Thankfully, I was lucky enough to check all these boxes. I am privileged
+Thankfully, I am lucky enough to check all these boxes. I am privileged
 enough to use a room in my parents’ basement and burn some of their excess
 solar power, which I analyzed in [this](https://github.com/hschoss/solar-panels-r)
 data analysis project. I also bought the hardware relatively cheap off ebay,
@@ -148,21 +170,14 @@ and I had already learned how to use the terminal and a proper editor at
 university. And because I am currently “only” writing my bachelor’s thesis, I
 have a reasonable amount of time to pour into this project.
 
-So yes, hosting an LLM locally is possible. But it is not just a weekend
-project. It requires space, electricity, hardware, technical skill, time, and
-a situation in life where all of these things somehow overlap.
-
 
 ### some napkin math
 
-Before buying hardware, I had to answer a boring but important question:
-**What kind of model do I actually want to run?**
+Before buying the hardware, You have to answer a boring but important question:
+**What kind of model do I want to run?**
 
-That sounds simple, but it matters a lot. Local AI hardware does not scale
-gently. Like many things in life, you eventually reach a point where you need
-much more hardware for only a little more performance.
-
-From reading discussions in communities like r/LocalLLaMA and r/LocalLLM, my
+Like many things in life, you eventually reach a point where you need
+much more hardware for only a little more performance. From reading discussions in communities like r/LocalLLaMA and r/LocalLLM, my
 rough impression was that this point starts somewhere around 70B to 100B
 models. Below that, models are already useful, but still clearly limited.
 Above that, the hardware requirements become much more painful.
@@ -187,33 +202,11 @@ So in practice, I wanted around **90 GB of available VRAM**.
 
 At first, this sounds like you could simply buy many cheap GPUs and add their
 memory together. For example, eleven low-end cards with 8 GB each would
-technically give you 88 GB of VRAM.
-
-But that is not how this works in practice.
-
-Multiple weak GPUs are not the same as fewer strong GPUs. You have to deal
-with bandwidth, PCIe lanes, power consumption, cooling, driver issues, model
-splitting, and communication between cards. The memory number alone does not
-tell the whole story.
-
+technically give you 88 GB of VRAM. But that is not how this works in practice.
+Multiple weak GPUs are not the same as fewer strong GPUs
 It is a bit like football. Eleven mediocre players do not automatically beat
 six world-class players just because there are more of them on the field.
-Coordination matters. Speed matters. The weakest parts of the system still
+The weakest parts of the system still
 slow everything down.
 
-That was the point where the hardware question became more concrete. I did not
-just need “enough VRAM” on paper. I needed a setup that could realistically
-run a serious model without turning every generation into a technical pain.
-
-My laptop can already run smaller models around the 30B range reasonably well.
-That is impressive, but it was not the experiment I wanted. I wanted to reach
-the point where local inference starts to feel serious.
-
-For me, that meant targeting 70B.
-
 **this post is still under construction**
-
-
-
-**stay tuned**
-
