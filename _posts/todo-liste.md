@@ -13,3 +13,5 @@
 # The Influence of Perceived Human-Likeness of an Advisor on Advice Integration in Financial Decision-Making
 * svg version of graphics
 
+
+Powered by Jekyll with "al-folio" theme. 

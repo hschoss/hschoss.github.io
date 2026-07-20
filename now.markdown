@@ -7,21 +7,17 @@ permalink: /now/
 A snapshot of what I’m currently focused on, inspired by the idea of [now
 pages](https://nownownow.com/about).
 
-
 ### focus
-* Writing my bachelor’s thesis on Probabilistic Knowledge Structures and how
-  to simulate them with pisa data.
-* setting up a [tailnet](https://headscale.net/stable/) locally.
+* Writing my bachelor’s thesis on probabilistic knowledge structures, comparing the BLIM and SLM models using real PISA data.
+* setting up a self-hosted [tailnet](https://headscale.net/stable/).
 * Working toward the advanced category in dips, pull ups and bench press on
   [strenghlevel.com](https://strengthlevel.com/).
-* Applying for several master's programs.
-
+* refreshing highschool math and getting used to uni level maths.
 
 ### in between
-* Following [Hania
-  Rani's](https://open.spotify.com/artist/14YzutUdMwS9yTnI0IFBaD?si=pqhZcY72RaqOy6vShSEwlQ)
-  new work, might go to a concert soon
-* Waiting for season 5 of Babylon Berlin
-* figuring out how to use nudging to invest rationally in the stock market.
+* brushing up my english vocab
+* starting a hiking group for weekend trips in the black forest
+* looking for internships and study-abroad options in places with strong machine
+learning courses
 
-last updated: June 19, 2026
+last updated: July 20, 2026

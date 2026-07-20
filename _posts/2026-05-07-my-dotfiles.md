@@ -2,7 +2,7 @@
 layout: post
 title:  "My Dotfiles"
 date:   2026-05-07 10:00:00
-categories: linux code
+categories: lnx tex
 ---
 
 I started university two and a half years ago with an old and clunky 2013
@@ -12,19 +12,24 @@ remember having to relearn most of the basic shortcuts like <kbd>Shift</kbd> +
 <kbd>Shift</kbd> + <kbd>S</kbd>, or trying to run a `.exe` file from my
 Applications folder.
 
+
+----
+
 At first, I really liked the polished, "glossy" look of macOS and learned a lot
 of trackpad gestures. Compared to Windows, interacting with the system felt
 more intuitive and creative. But soon I noticed the persistent friction of
-window management.
+"drag and drop" window management.
 
 I rarely work in a single window environment. Most of the time, I read papers
 on one side of the screen while taking notes on the other, or write emails and
-use tools like ChatGPT to refine them. Later at university, we often
+use tools like ChatGPT to refine them. When i learned programming, we often
 worked with a text editor and a terminal side by side instead of using an IDE.
 
 Back on Windows, arranging windows with <kbd>Win</kbd> + <kbd>Arrow</kbd> keys felt
 effortless. But on macOS, I often found myself dragging windows around with the
 trackpad or using Split View through the small button in the corner.
+
+-----
 
 After spending some time on Wikipedia and falling into a deep rabbit hole, I
 discovered Linux with its tiling window managers like [i3](https://i3wm.org/).
