@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# hi!
-
 My name is Hannes and I study [Psychology](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/psychologie/studium/studiengaenge/master-psychologie-allgemein/) and [Quantitative Data Science](https://uni-tuebingen.de/fakultaeten/wirtschafts-und-sozialwissenschaftliche-fakultaet/faecher/fachbereich-sozialwissenschaften/methodenzentrum/studies/msc-qds/) at the University of Tübingen.
 
 My goal is to become a behavioral data scientist: someone who combines psychological theory and quantitative methods like machine learning to understand and improve human-centered systems.

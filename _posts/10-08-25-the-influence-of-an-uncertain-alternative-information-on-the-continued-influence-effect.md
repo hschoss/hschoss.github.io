@@ -3,7 +3,7 @@ layout: post
 title:  "The Influence of Uncertain Alternative Information on the 
         Continued Influence Effect" 
 date:   2026-03-26 
-categories: uni psy paper 
+categories: uni psy emp
 ---
 
 ***Abstract***
