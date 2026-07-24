@@ -16,7 +16,8 @@ pages](https://nownownow.com/about).
 
 ### in between
 * brushing up my english vocab
-* starting a hiking group for weekend trips in the black forest
+* starting a hiking group for weekend trips in the [black
+  forest](https://hschoss.github.io/bf1k/)
 * looking for internships and study-abroad options in places with strong machine
 learning courses
 

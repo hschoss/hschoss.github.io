@@ -18,12 +18,6 @@ If you are nearby, feel free to say hello.
 **Location:** Kloster Bebenhausen, Summer Refectory  
 **Description:** last choir concert of this programme.
 
-***LUG: [Stammtisch](https://lug-tuebingen.de/)***
-
-**Date:** 2026-07-21 19:00  
-**Location:** Coyote Cafe Tübingen, Westbahnhof  
-**Description:** Monthly Linux meetup with beer
-
 ---
 
 ## next 30 days
@@ -48,6 +42,9 @@ If you are nearby, feel free to say hello.
 
 ### Later
 
+---
+
+### more events i am interested in
 
 * https://stuttgart.impacthub.net/
 * https://www.startupbw.de/events-wettbewerbe/start-up-bw-summit
