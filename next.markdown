@@ -12,11 +12,11 @@ If you are nearby, feel free to say hello.
 
 ### next 7 days
 
-***Vokalkunst: [(Un)Holde concert](https://vokalkunst.de/konzert/bebenhausen/)***
+***first bf1k trip***
 
-**Date:** 2026-07-26 18:00  
-**Location:** Kloster Bebenhausen, Summer Refectory  
-**Description:** last choir concert of this programme.
+**Date:** 2026-08-02 08:00  
+**Location:** Altsteigerskopf
+**Description:** first hike in my small hiking club
 
 ---
 
@@ -49,10 +49,9 @@ If you are nearby, feel free to say hello.
 * https://stuttgart.impacthub.net/
 * https://www.startupbw.de/events-wettbewerbe/start-up-bw-summit
 * https://techeurope.io/hackathons?after-date=2026-07-19
+* https://de.wikipedia.org/wiki/Europ%C3%A4ische_Fernwanderwege
 
 ---
 
 last updated: July 20, 2026
-
-
 
