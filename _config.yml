@@ -31,3 +31,5 @@ header_pages:
   - now.markdown
   - next.markdown
 
+exclude:
+  - _drafts

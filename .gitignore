@@ -6,44 +6,9 @@ _site/
 vendor/bundle/
 
 # Local/unpublished drafts
-_posts/10-05-26-an-open-letter-to-the-tech-bros.md
-_posts/20-05-26-my-homelab.md
-_posts/2025-11-28-my-laptop.md
-_posts/2025-04-01-building-a-kubernetes-homelab.md
-_posts/20-05-26-my-homelab.md
-_posts/riasec.md
-_posts/how-to-be-happy-in-a-european-society.md
-_posts/verbesserung.md
-_posts/bf1k.md
-
-_posts/how-to-be-happy-in-a-european-society.md
-_posts/my-dotfiles.md
-_posts/riasec.md
-_posts/scraper.md
-
-_posts/01-09-25-energy-transition-in-the-laend-a-village-blown-off-course.md
-_posts/10-05-26-an-open-letter-to-the-tech-bros.md
-_posts/10-08-25-the-influence-of-an-uncertain-alternative-information-on-the-continued-influence-effect.md
-_posts/17-03-2025-temporal-dynamics-of-plausible-alternative-activation-in-conversational-negation.md
-_posts/20-05-26-my-homelab.md
-_posts/2025-04-01-building-a-kubernetes-homelab.md
-_posts/2025-11-28-my-laptop.md
-_posts/2026-03-26-the-influence-of-subtitles-and-auditory-modality-on-the-salience-of-filmic-cuts.md
-_posts/2026-05-07-my-dotfiles.md
-_posts/2026-05-25-finding-your-interests.md
-_posts/24-07-26-tuebingen-adaptive-learning.md
-_posts/31-03-26-influence-of-perceived-human-likenesss-of-an-advisor-on-advice-integration-in-financial-decision-making.md
-_posts/how-to-be-happy-in-a-european-society.md
-_posts/my-dotfiles.md
-_posts/scraper.md
-_posts/todo-liste.md
-
 
 
 llm-prompt.markdown
-_posts/todo-liste.markdown
-
-
 CRITIC.md
 CHANGES.md
 
@@ -51,12 +16,4 @@ assets/prompts/anish.md
 assets/prompts/black.md
 
 
-bf1k.md
-how-to-be-happy-in-a-european-society.md
-my-dotfiles.md
-riasec.md
-scraper.md
-todo-liste.md
-
-# hannes at schlaeptop in ~/gh/hschoss.github.io/_posts
->
+_drafts/*
