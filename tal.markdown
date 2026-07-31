@@ -4,7 +4,21 @@ title:  "Tübingen Adaptive Learning"
 permalink: /tal/
 ---
 
-One side project I’m currently exploring is called Tübingen Adaptive Learning,
+I want to build an intelligent tutoring system using the timms video data.
+
+the goal is to turn watching lectures online in momre of an interactive
+process and using the techniqeus that suck us into social media to create an
+engaging learning experience.     
+
+many students are weak in the natural sciences nowadays, you have to show them
+that they are interesting
+
+
+uni has turned into school 2.0. Many people do not look on the right or on the
+left from their current degrees.
+
+
+As a side project I’m currently exploring is called Tübingen Adaptive Learning,
 or tal for short. The basic idea is simple: many universities already have
 large collections of recorded lectures, but most of the time, watching them is
 still a passive experience. You press play, listen for a while, maybe take
@@ -63,3 +77,66 @@ understanding, critical thinking, and reliable competence.
 That is the direction I want to explore with TAL. Not as a finished startup
 pitch yet, but as a concrete way to turn theory from university into something
 practical.
+
+
+## What I do
+
+As a side project, I am exploring **Tübingen Adaptive Learning (TAL)** — an
+intelligent tutoring system that transforms recorded university lectures into
+interactive and adaptive learning experiences.
+
+Many universities already have thousands of hours of high-quality lecture
+videos, but watching them is still mostly passive: students press play,
+listen, and hope they understood the material. TAL aims to add an intelligent
+layer on top of existing lecture platforms, such as **timms**, by helping
+students actively engage with the content.
+
+The idea is to use AI and learning science to create features such as:
+
+* interactive questions during lectures,
+* summaries and topic explanations,
+* personalized learning paths,
+* concept tracking,
+* recommendations on what to revisit when students struggle.
+
+Instead of only delivering information, lectures should help students build
+understanding.
+
+## Why I do it
+
+Many students today struggle to see the beauty and relevance of science.
+University often becomes “school 2.0”: people focus narrowly on passing exams
+and rarely explore ideas beyond their degree.
+
+I want to create learning experiences that make knowledge more engaging and
+curiosity-driven. Social media platforms have mastered the art of keeping
+people interested and coming back — TAL explores how some of these engagement
+principles can be used for something meaningful: learning.
+
+The deeper research question behind TAL is how we can combine machine learning
+with models of human understanding. A good tutor does not only tell you
+whether an answer is correct; they understand what you might be missing and
+guide you toward the next step. TAL aims to move in that direction.
+
+## How to get involved
+
+TAL is currently an open-ended student-led experiment. The goal is not to
+build a massive platform immediately, but to start with small, practical
+prototypes and learn from real students.
+
+I am looking for people interested in contributing from different backgrounds:
+
+* **Computer science & data science** — AI models, software development, data
+  pipelines
+* **Psychology & education** — learning science and evaluation
+* **Design** — user experience and interaction concepts
+* **Business & entrepreneurship** — sustainable models and partnerships
+* **Students from all fields** — testing ideas and shaping the product
+
+The long-term vision is to explore whether TAL could become a socially
+valuable, potentially open-source educational project that helps universities
+make better use of their existing knowledge resources.
+
+The goal is simple: use technology not just to make learning faster, but to
+make it deeper, more engaging, and more human.
+

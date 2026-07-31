@@ -6,6 +6,9 @@ hi, my name is Hannes. I study [Psychology](https://uni-tuebingen.de/fakultaeten
 
 My goal is to become a behavioral data scientist: someone who combines psychological theory and quantitative methods like machine learning to understand and improve human-centered systems.
 
-This website collects an evolving collection of research projects, ideas, and general interests.
+This website is an evolving collection of my research projects, ideas, and
+personal interests. You’ll find a small [hiking club](/bf1k/) I started, a
+[social entrepreneurship idea](/tal/) I’m developing, and a [photo
+gallery](/gallery/) with moments and places I wanted to capture.
 
 I’m always happy to connect, so feel free to say hello.
