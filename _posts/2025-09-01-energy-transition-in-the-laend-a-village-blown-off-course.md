@@ -1,15 +1,18 @@
 --- 
-layout: post 
-title:  "Energy Transition in the Ländle: A Village Blown Off Course"
-date:   2026-03-26 
-categories: uni psy essay 
+layout:     post 
+title:      "Energy Transition in the Ländle: A Village Blown Off Course"
+date:       2025-09-01
+categories: uni
+tags:       psy ess pol mis
 ---
 
 *This post grew out of a seminar on social psychology in political contexts
 that I attended during my fourth semester. The original version was written as
-an academic essay, but the conflict I took a closer look at felt too relevant
-to stay in that format. The original essay and the academic version are
-available [here](/assets/src)*
+an academic essay, but the conflict I examined felt too relevant and complex
+to remain confined to that format. I therefore decided to adapt and expand the
+essay into a more accessible form. The original German essay is available
+[here](https://github.com/hschoss/hschoss.github.io/tree/main/assets/code/
+village-blown-course/main.pdf).*
 
 
 Not far from Tübingen, on the northern edge of the Black Forest, lies the
@@ -32,7 +35,7 @@ signatures and, through the municipal council, forced a local referendum on the
 planned wind farm.
 
 
-## The FLOs against the PROs
+***The FLOs against the PROs***
 
 In retrospect, the emergence of opposing camps can be traced through
 conversations with local residents as well as the websites of the *Freie
@@ -43,28 +46,26 @@ opposed the project due to their strong attachment to their homeland. Their
 arguments departed from the scientific consensus and the information the
 Stadtwerke Tübingen had provided.
 
-Interestingly, in an official information brochure, all local political parties
-as well as the mayor unanimously and for similar reasons aligned themselves
-with the PROs, while institutional support for the FLOs was lacking. 
-
-Instead, the FLOs organized their own informational event, at which they had
-Prof. Dr. Fritz Vahrenholt present “Facts about the project in Ostelsheim.” He
-is the author of several books that deny climate facts and have drawn negative
-attention for cherry-picking, misinformation, and inadequate citation.
-
-With their diverse, and at times even contradictory, arguments, the FLOs
-succeeded in appealing to different groups of people within the community. A
-large proportion of the convinced villagers fell into the so-called
-“*not-in-my-backyard*” category, in which the expansion of renewable energy is
-recognized as necessary, but is met with resistance as soon as its
-implementation directly affects their own lives.
+Interestingly, in an official information brochure, all local political
+parties as well as the mayor unanimously and for similar reasons aligned
+themselves with the PROs, while institutional support for the FLOs was
+lacking. Instead, the FLOs organized their own informational event, at which
+they had Prof. Dr. Fritz Vahrenholt present “Facts about the project in
+Ostelsheim.” He is the author of several books that deny climate facts and
+have drawn negative attention for cherry-picking, misinformation, and
+inadequate citation. With their diverse, and at times even contradictory,
+arguments, the FLOs succeeded in appealing to different groups of people
+within the community. A large proportion of the convinced villagers fell into
+the so-called “*not-in-my-backyard*” category, in which the expansion of
+renewable energy is recognized as necessary, but is met with resistance as
+soon as its implementation directly affects their own lives.
 
 In the end, following a campaign by the FLOs and PROs, a referendum was held,
 in which 57% of participants voted against the construction of the wind farm in
 the Ostelsheim Lochwald.
 
 
-## Group Dynamics
+***Group Dynamics***
 
 The influential theory of realistic group conflict, developed by the American
 social psychologist Muzafer Sherif, can be used to analyze the village
@@ -77,13 +78,11 @@ competition for scarce resources.
 In Ostelsheim, competition over the planned wind farm led to a negative
 interdependence, because the in-group’s goal could only be achieved at the
 expense of the out-group.  This triggered the social conflict, but perceptions
-of group membership also played a role.
-
-Studies on Henri Tajfel’s minimal group paradigm demonstrate that arbitrary
-social categorizations into in-groups and out-groups are sufficient to
-systematically favor one’s own group. This stems from the need for positive
-self-evaluation and results in conformity with and defense of the in-group in
-order to belong.
+of group membership also played a role. Studies on Henri Tajfel’s minimal
+group paradigm demonstrate that arbitrary social categorizations into
+in-groups and out-groups are sufficient to systematically favor one’s own
+group. This stems from the need for positive self-evaluation and results in
+conformity with and defense of the in-group in order to belong.
 
 This polarization was evident in outraged citizens who accused the Tübingen
 public utility company of ripping them off financially. Health concerns such as
@@ -94,7 +93,7 @@ the wind turbines, thereby identifying with the FLOs and, building on the
 minimal group paradigm, also agreeing with their broader line of reasoning.
 
 
-## Windmills and Points of Light
+***Windmills and Points of Light***
 
 In 1935, Muzafer Sherif investigated the influence of the group on an
 individual’s perception using the autokinetic effect. This is an optical-physical illusion in which a fixed point of light in a dark room is perceived
@@ -114,6 +113,7 @@ one sees the psychological perception that prevails as a social norm within the
 FLO group. The latter was reflected in the group’s informational flyers and on
 its website.
 
+
 **Photomontage of the Wind Farm Projections**
 ![autokinetic Windmills](/assets/images/autokinetic-windmills.webp)
 
@@ -124,7 +124,7 @@ dramatized version by the Freie Landschaft Ostelsheim e.V.  association, set
 against a blue sky.*
 
 
-## Shared Goals?
+***Shared Goals?***
 
 To meet climate protection targets by 2030, an additional 749 wind turbines in
 Baden-Württemberg are currently in the permitting process, have already been

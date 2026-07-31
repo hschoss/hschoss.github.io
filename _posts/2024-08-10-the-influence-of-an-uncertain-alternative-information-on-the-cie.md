@@ -1,10 +1,21 @@
 --- 
-layout: post 
-title:  "The Influence of Uncertain Alternative Information on the 
-        Continued Influence Effect" 
-date:   2026-03-26 
-categories: uni psy emp
+layout:     post 
+title:      "The Influence of an Uncertain Alternative Information on the
+            Continued Influence Effect" 
+date:       2024-08-10
+categories: uni
+tags:       psy cog mis emp
 ---
+
+This paper was written as part of a seminar in my second semester of my
+Bachelor's degree. The seminar introduced the foundations of scientific
+research and experimental methodology through the design, execution, and
+analysis of empirical studies. The topic also sparked my interest in why
+misinformation persists and why false claims can continue to influence
+people's beliefs. The R scripts used to analyze the data and generate the
+figures are available [here](https://github.com/hschoss/hschoss.github.io/
+tree/main/assets/code/continued-influence-effect).
+
 
 ***Abstract***
 
@@ -31,24 +42,26 @@ misinformation spreads more easily online.*
 
 Over the past few decades, media culture around the world has changed due to
 the rise of the internet and the transition into the information age. Today,
-the media is often misused by individuals and institutions to advance their own
-agendas and polarize public opinion. In the process, misleading, inaccurate, or
-false information is disseminated, which often has negative societal
-consequences. A well-known example is former U.S. President Donald Trump, who
-during his four-year term spread more than 30,000 false or misleading claims,
-many of them hundreds of times ([Glenn Kessler et al.,
-2021](https://www.washingtonpost.com/politics/2021/01/24/trumps-false-or-misleading-claims-total-30573-over-four-years/)).
-Through him and others, more than half of all misinformation regarding COVID-19
-was spread via social media ([Naeem et al., 2021](https://doi.org/10.1111/hir.12320). This dynamic led
-to reduced willingness to get vaccinated, the spread of unproven treatment
-methods, and ultimately hindered the achievement of herd immunity ([Borges do
-Nascimento et al., 2022](https://doi.org/10.2471/BLT.21.287654)).  Research
-into the effects of misinformation has its origins in a pioneering experiment
-by [Johnson and Seifert (1994)](https://doi.org/10.1037/0278- 7393.20.6.1420).
-They found that misinformation continues to influence conclusions formed later,
-even if it was corrected before the inference was made. They termed the
-phenomenon of continuing to trust misinformation even after recalling its
-correction the Continued Influence Effect.
+the media is often misused by individuals and institutions to advance their
+own agendas and polarize public opinion. In the process, misleading,
+inaccurate, or false information is disseminated, which often has negative
+societal consequences. A well-known example is former U.S. President Donald
+Trump, who during his four-year term spread more than 30,000 false or
+misleading claims, many of them hundreds of times [Glenn Kessler et al.,
+2021]( https://www.washingtonpost.com/politics/2021/01/24/
+trumps-false-or-misleading-claims-total-30573-over-four-years/). Through him
+and others, more than half of all misinformation regarding COVID-19 was spread
+via social media ([Naeem et al.,2021]( https://doi.org/10.1111/hir.12320).
+This dynamic led to reduced willingness to get vaccinated, the spread of
+unproven treatment methods, and ultimately hindered the achievement of herd
+immunity ([Borges do Nascimento et al.,2022](
+https://doi.org/10.2471/BLT.21.287654)).  Research into the effects of
+misinformation has its origins in a pioneering experiment by [Johnson and
+Seifert (1994)](https://doi.org/10.1037/0278- 7393.20.6.1420). They found that
+misinformation continues to influence conclusions formed later, even if it was
+corrected before the inference was made. They termed the phenomenon of
+continuing to trust misinformation even after recalling its correction the
+Continued Influence Effect.
 
 Replications of the effect have
 often used the following paradigm over the years: Subjects are presented with a
@@ -73,11 +86,11 @@ greater when the retraction of misinformation disseminated by the media is
 presented alongside an uncertain alternative (W<sub>u</sub>) or when the
 retraction is presented alongside a certain (W<sub>s</sub>) or no alternative
 information (W<sub>0</sub>).  In the first step, we aim to replicate existing
-research findings by [Johnson and Seifert
-(1994)](https://doi.org/10.1037/0278-7393.20.6.1420) and therefore predict that
-the effect can be reduced more effectively by a retraction accompanied by a
-certain alternative than by one with no alternative. The inference value of the
-W<sub>0</sub> condition will thus be higher than in the W<sub>s</sub>
+research findings by [Johnson and Seifert (1994)](
+https://doi.org/10.1037/0278-7393.20.6.1420) and therefore predict that the
+effect can be reduced more effectively by a retraction accompanied by a
+certain alternative than by one with no alternative. The inference value of
+the W<sub>0</sub> condition will thus be higher than in the W<sub>s</sub>
 condition.  Next, we will examine the influence of an uncertain information
 alternative on the inference value and relate it to other types of retraction.
 In doing so, we will compare W<sub>0</sub> with W<sub>u</sub>, assuming that
@@ -96,18 +109,23 @@ credibility of the correction message.
 
 ### Participants 
 
-Approximately 100 students each recruited eight acquaintances as participants and
-conducted at least four in-person experiments and no more than four online experiments.
-Participants who were at least 18 years old, had normal vision, and spoke German at
-native-speaker proficiency met the eligibility criteria for the experiment. Of the
-total 753 participants aged 18 to 86 (*M* = 29.50, *SD* = 14.61, *Mdn* = 22) who took part in the experiment, 301 were male, 439 were female, and 5 identified as non-binary. They
-were divided into three equal-sized groups of 246, 253, and 254 participants.
-Their participation in the experiment was voluntary, and ethical guidelines were strictly
-followed. Only the data of those participants who completed the experiment
-and gave consent to the processing of their data were analyzed.
-Calculations from the pre-registration indicated a sample size of 690
-and a group size of 230 participants each to achieve a power of more than 80% in the planned Welch tests with α = .05. To determine the minimum relevant effect, the following values from previous experiments were used: W<sub>0</sub> (*M* = 0.95, *SD*
-= 1.42), W<sub>u</sub> (*M* = 0.615, *SD* = 1.085), W<sub>s</sub> (*M* = 0.28, *SD* = 0.75)
+Approximately 100 students each recruited eight acquaintances as participants
+and conducted at least four in-person experiments and no more than four online
+experiments. Participants who were at least 18 years old, had normal vision,
+and spoke German at native-speaker proficiency met the eligibility criteria
+for the experiment. Of the total 753 participants aged 18 to 86 (*M* = 29.50,
+*SD* = 14.61, *Mdn* = 22) who took part in the experiment, 301 were male, 439
+were female, and 5 identified as non-binary. They were divided into three
+equal-sized groups of 246, 253, and 254 participants. Their participation in
+the experiment was voluntary, and ethical guidelines were strictly followed.
+Only the data of those participants who completed the experiment and gave
+consent to the processing of their data were analyzed. Calculations from the
+pre-registration indicated a sample size of 690 and a group size of 230
+participants each to achieve a power of more than 80% in the planned Welch
+tests with α = .05. To determine the minimum relevant effect, the following
+values from previous experiments were used: W<sub>0</sub> (*M* = 0.95, *SD* =
+1.42), W<sub>u</sub> (*M* = 0.615, *SD* = 1.085), W<sub>s</sub> (*M* = 0.28,
+*SD* = 0.75)
 
 
 ## Materials
@@ -302,3 +320,41 @@ could not distinguish between true and false news.  Against the backdrop of new
 technologies that enable the rapid creation and dissemination of content on
 social media, this field of research is likely to gain increasing relevance in
 the future.
+
+
+## References
+
+Borges do Nascimento, I. J., Beatriz Pizarro, A., Almeida, J.,
+Azzopardi-Muscat, N., André Gonçalves, M., Björklund, M., & Novillo-Ortiz,
+D. (2022). Infodemics and health misinformation: A systematic review of
+reviews. *Bulletin of the World Health Organization, 100*(9), 544–561.
+[https://doi.org/10.2471/BLT.21.287654](https://doi.org/10.2471/BLT.21.287654)
+
+Glenn Kessler, Rizzo, S., & Kelly, M. (2021, January 24). Trump's false or
+misleading claims total 30,573 over four years. *The Washington Post*.
+[https://www.washingtonpost.com/politics/2021/01/24/trumps-false-or-misleading-claims-total-30573-over-four-years/](https://www.washingtonpost.com/politics/2021/01/24/trumps-false-or-misleading-claims-total-30573-over-four-years/)
+
+Johnson, H. M., & Seifert, C. M. (1994). Sources of the continued influence
+effect: When misinformation in memory affects later inferences. *Journal of
+Experimental Psychology: Learning, Memory, and Cognition, 20*(6),
+1420–1436.
+[https://doi.org/10.1037/0278-7393.20.6.1420](https://doi.org/10.1037/0278-7393.20.6.1420)
+
+Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J.
+(2012). Misinformation and its correction. *Psychological Science in the
+Public Interest, 13*(3), 106–131.
+[https://doi.org/10.1177/1529100612451018](https://doi.org/10.1177/1529100612451018)
+
+Naeem, S. Bin, Bhatti, R., & Khan, A. (2021). An exploration of how fake
+news is taking over social media and putting public health at risk. *Health
+Information & Libraries Journal, 38*(2), 143–149.
+[https://doi.org/10.1111/hir.12320](https://doi.org/10.1111/hir.12320)
+
+Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news
+online. *Science, 359*(6380), 1146–1151.
+[https://doi.org/10.1126/science.aap9559](https://doi.org/10.1126/science.aap9559)
+
+Wilkes, A. L., & Leatherbarrow, M. (1988). Editing episodic memory following
+the identification of error. *The Quarterly Journal of Experimental
+Psychology Section A, 40*(2), 361–387.
+[https://doi.org/10.1080/02724988843000168](https://doi.org/10.1080/02724988843000168)

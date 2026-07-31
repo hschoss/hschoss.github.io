@@ -1,4 +1,8 @@
-## Tübingen Adaptive Learning
+---
+layout: page
+title:  "Tübingen Adaptive Learning" 
+permalink: /tal/
+---
 
 One side project I’m currently exploring is called Tübingen Adaptive Learning,
 or tal for short. The basic idea is simple: many universities already have

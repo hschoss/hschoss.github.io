@@ -2,8 +2,8 @@
 # author: hannes
 # last edited: 2026-06-18
 
-figure_file_svg <- "output/figure-01-response-time-by-delay-relation.svg"
-figure_file_png <- "output/figure-01-response-time-by-delay-relation-2x.png"
+figure_file_svg <- "figures/fig-01-response-time-by-delay-relation.svg"
+figure_file_png <- "figures/fig-01-response-time-by-delay-relation-2x.png"
 
 plot_dat <- aggregate(
   key_resp.rt ~ delay + prime_target_relation,
@@ -89,7 +89,7 @@ draw_delay_relation_plot <- function() {
 
 svg(
   filename = figure_file_svg,
-  width = 10,
+  width = 15,
   height = 10,
   pointsize = 14,
   family = "Times New Roman",

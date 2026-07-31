@@ -1,12 +1,13 @@
---- 
-layout: post 
-title:  "Temporal Dynamics of Plausible Alternative Activation
-        in Conversational Negation" 
-date:   2026-03-26 
-categories: university psychology research 
+---
+layout:     post
+title:      "Temporal Dynamics of Plausible Alternative Activation in Conversational Negation"
+date:       2025-03-17
+categories: uni
+tags:       psy neg cog emp
 ---
 
-Negation is a fundamental linguistic phenomenon that has been researched
+***Abstract***  
+*Negation is a fundamental linguistic phenomenon that has been researched
 philosophically in the past and psychologically in recent decades. To
 understand how negation affects the activation level of plausible alternatives,
 we studied how different prime target relations influence response time in a
@@ -23,7 +24,7 @@ symmetry and consistency of our results indicate that we have worked in a
 methodically correct manner.  Therefore, our results can be interpreted with an
 adaption of the mental model theory. Future research could explore the role of
 different lengths of delay and come up with an improved version of an attention
-check for the participants.
+check for the participants.*
 
 
 Negation is a fundamental component of human language and has been studied in
@@ -230,7 +231,7 @@ ms; within) and different prime target relations (within), which depended on the
 *Mean Response times for different prime target relations with and without delay*
 
 ![Mean Response times for different prime target relations with and without
-delay](/assets/images/mean-response-time-for-prime-target-relations-with-and-without-delay.png)
+delay](/assets/images/fig-01-response-time-by-delay-relation.svg)
 
 *Note*. This plot illustrates the lack of interaction between delay and prime
 target relation in response time. Response times were significantly higher for
@@ -334,6 +335,11 @@ frequent switching between the “n” and “f” keys and the mouse. Additiona
 would be interesting to examine varying delay durations to assess the temporal
 impact on plausible alternatives in negation. For instance, a 1500 ms delay, as
 used in Kaup et al. (2005) could be implemented.
+
+
+The R scripts used to analyze the data and generate the figures are available
+[here](https://github.com/hschoss/hschoss.github.io/tree/main/assets/code/
+plausible-alternatives-in-conversational-negation).
 
 
 ## References

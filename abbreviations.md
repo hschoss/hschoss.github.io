@@ -2,139 +2,114 @@
 layout: page
 title: abbreviations
 permalink: /abbreviations.html
+nav_exclude: true
 ---
 
-I like abbreviations.
+I like abbreviations. Every post on this website is classified using a
+small set of abbreviated **categories** and **tags**.
 
-All tags on this website are abbreviated in one form or another. This page
-serves as a small index.
+The system follows two simple rules:
 
-| abbreviation | meaning |
-|---|---|
-| `ana` | analysis |
-| `alg` | algebra |
-| `cli` | command line |
-| `dev` | software development |
-| `emp` | empirical research |
-| `inf` | Informatik |
-| `lnx` | Linux |
-| `mat` | mathematics |
-| `psy` | psychology |
-| `qds` | quantitative data science |
-| `sec` | security |
-| `sta` | statistics |
-| `tec` | technology |
-| `thy` | theoretical research |
-| `uni` | university |
+- **Categories** describe the broad area where a post belongs.
+- **Tags** describe the specific topic, method, type, or context of the post.
 
 
-i don't want it to be listed in my header in jekyll minima theme.
-
-I also want each abbreviation to be a link. When i klick on the link i can see
-all the posts and articles that were published under the abbreviation. Help
-me  to do this
+Think of categories as shelves
+Every post sits on one shelf.
 
 
-
-
-
-Use a **two-level abbreviation system**:
-
-```text
-categories = broad areas
-tags       = specific filters
-```
-
-## Categories
-
-Use categories for the main area a post belongs to. Keep them few and stable.
-
-```text
-lnx  Linux / Unix / personal computing
-psy  psychology
-mat  mathematics
-qds  quantitative data science
-tec  technology
-inf  Informatik / computer science
-```
-
-## Tags
-
-Use tags for topic, type, method, or context.
-
-```text
-uni  university
-emp  empirical research
-thy  theoretical research
-ess  essay
-prj  project
-not  notes
-
-dev  software development
-sec  security
-cli  command line
-cfg  configuration
-srv  server
-net  networking
-
-sta  statistics
-ana  analysis
-alg  algebra
-
-cog  cognition
-mem  memory
-dec  decision-making
-mis  misinformation
-```
-
-## Rule
-
-Each post should have:
-
-```yaml
-categories: one broad area
-tags: several specific descriptors
-```
-
-Example:
-
-```yaml
----
-layout: post
-title: "My Dotfiles"
-date: 2026-05-07
-categories: lnx
-tags: dev cli cfg
----
-```
-
-Example:
-
-```yaml
----
-layout: post
-title: "The Influence of Uncertain Alternative Information on the Continued Influence Effect"
-date: 2026-03-26
-categories: psy
-tags: uni emp cog mem mis
----
-```
-
-## URL idea
-
-Use short archive URLs:
-
-```text
-/a/psy/   area page for psychology
-/a/lnx/   area page for Linux
-
-/t/emp/   tag page for empirical research
-/t/cli/   tag page for command line
-```
-
-In short:
+Now every book gets sticky notes attached:
+Those sticky notes are tags.
 
 ```text
 categories = where it lives
 tags       = what it is about
 ```
+
+Every abbreviation links to its archive page containing all posts using that
+category or tag.
+
+## Categories
+
+Categories are few, stable, and define the primary organisation of the site.
+
+| abbreviation | meaning     |
+| ------------ | ----------- |
+| `uni`        | university  |
+| `prj`        | projects    |
+| `adv`        | adventures  |
+| `ref`        | reflections |
+
+
+
+## tags
+
+
+| abbreviation | meaning |
+|---|---|
+| [`tec`](/tec/) | technology |
+| [`lnx`](/lnx/) | Linux / Unix |
+| [`inf`](/inf/) | Informatik / computer science |
+| [`mat`](/mat/) | mathematics |
+| [`psy`](/psy/) | psychology |
+| [`qds`](/qds/) | quantitative data science |
+
+| [`int`](/int/) | internship |
+
+
+Tags are more flexible and describe the content of a post.
+
+### research-related
+
+| abbreviation | meaning |
+|---|---|
+| [`emp`](/tag/emp/) | empirical research |
+| [`thy`](/tag/thy/) | theoretical research |
+| [`ana`](/tag/ana/) | analysis |
+| [`alg`](/tag/alg/) | algebra |
+| [`sta`](/tag/sta/) | statistics |
+
+### writing-related
+
+| abbreviation | meaning |
+|---|---|
+| [`ess`](/tag/ess/) | essay |
+| [`not`](/tag/not/) | notes |
+| [`prj`](/tag/prj/) | project |
+
+### cs-related
+
+| abbreviation | meaning |
+|---|---|
+| [`cli`](/tag/cli/) | command line |
+| [`cfg`](/tag/cfg/) | configuration |
+| [`dev`](/tag/dev/) | software development |
+| [`net`](/tag/net/) | networking |
+| [`sec`](/tag/sec/) | security |
+| [`srv`](/tag/srv/) | server |
+
+### psychology-related
+
+| abbreviation | meaning |
+|---|---|
+| [`cog`](/tag/cog/) | cognition |
+| [`dec`](/tag/dec/) | decision-making |
+| [`mem`](/tag/mem/) | memory |
+| [`mis`](/tag/mis/) | misinformation |
+| [`att`](/tag/att/) | attention |
+
+cie continued influence effect 
+
+halo effect?
+
+### else
+
+| abbreviation | meaning |
+|---|---|
+| [`ccc`](/tag/ccc/) | Chaos Computer Club |
+| [`pol`](/tag/pol/) | politics |
+
+
+env  environment
+eco  ecological issues 
+

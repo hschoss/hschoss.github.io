@@ -2,7 +2,7 @@
 # author: hannes
 # date: 2026-06-18
 
-# setwd("")
+setwd("/home/hannes/gh/hschoss.github.io/assets/code/continued-influence-effect")
 
 ##############################################################################
 
@@ -83,9 +83,9 @@ dat <- dat[dat$item_type == "experimental",]
 ## 2.5 remove trials with wrong responses
 dat <- dat[dat$key_resp.corr == "1",]
 
-## 2.6 remove trials with response times lower than 250 ms or higher than 6 seconds
-dat <- dat[!dat$key_resp.rt < .25, ]
+## 2.6 remove trials with really slow or high response times
 dat <- dat[!dat$key_resp.rt > 6, ]
+dat <- dat[!dat$key_resp.rt < .25, ]
 
 ## 2.7 remove low trial count (ltc) participants with less than 4 trials left 
 # in one of the 8 conditions
@@ -103,7 +103,6 @@ dat <- dat[!dat$participant %in% non_naive,]
 length(unique(dat$participant))
 
 ## 2.9 demographics of final sample
-
 demo <- dat[!duplicated(dat$participant),
             c("participant", "age", "sex", "native_language")]
 

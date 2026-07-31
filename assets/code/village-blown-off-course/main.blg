@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99e (TeX Live 2026)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: literatur.bib
+Warning--entry type for "biermayer2025" isn't style-file defined
+--line 9 of file literatur.bib
+Warning--entry type for "bundestagswahl2025" isn't style-file defined
+--line 18 of file literatur.bib
+Warning--entry type for "cambridge2025" isn't style-file defined
+--line 25 of file literatur.bib
+Warning--entry type for "ostelsheim2025" isn't style-file defined
+--line 31 of file literatur.bib
+Warning--entry type for "boell2023" isn't style-file defined
+--line 56 of file literatur.bib
+Warning--entry type for "umwelt2024" isn't style-file defined
+--line 63 of file literatur.bib
+Warning--entry type for "mohn2012" isn't style-file defined
+--line 71 of file literatur.bib
+Warning--entry type for "nothacker2025" isn't style-file defined
+--line 80 of file literatur.bib
+Warning--entry type for "obermaier2025" isn't style-file defined
+--line 88 of file literatur.bib
+Warning--entry type for "ostelsheim2024" isn't style-file defined
+--line 96 of file literatur.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 15 entries,
+            6951 wiz_defined-function locations,
+            1339 strings with 12224 characters,
+and the built_in function-call counts, 26762 in all, are:
+= -- 3755
+> -- 165
+< -- 1072
++ -- 988
+- -- 34
+* -- 1386
+:= -- 4383
+add.period$ -- 67
+call.type$ -- 15
+change.case$ -- 286
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 550
+empty$ -- 1049
+format.name$ -- 236
+if$ -- 5475
+int.to.chr$ -- 0
+int.to.str$ -- 45
+missing$ -- 0
+newline$ -- 331
+num.names$ -- 122
+pop$ -- 415
+preamble$ -- 1
+purify$ -- 90
+quote$ -- 0
+skip$ -- 2358
+stack$ -- 0
+substring$ -- 1096
+swap$ -- 278
+text.length$ -- 68
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1984
+warning$ -- 0
+while$ -- 114
+width$ -- 0
+write$ -- 368
+(There were 10 warnings)

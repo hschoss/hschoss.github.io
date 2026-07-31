@@ -6,7 +6,21 @@ date:   2026-03-31
 categories: uni psy research
 ---
 
-The rapid integration of artificial intelligence into daily life underscores
+This paper was written as part of a seminar in my fifth semester of my
+Bachelor's degree. The seminar allowed us to independently explore a question
+from cognitive psychology with social implications. We developed the research
+design, created the materials, and conducted the analysis ourselves. The topic
+sparked my interest in human–machine interaction, particularly how people
+interact with AI systems and artificial advisors. The R scripts used to
+analyze the data and generate the figures are available
+[here](https://github.com/hschoss/hschoss.github.io/tree/main/assets/code/
+continued-influence-effect).
+
+
+
+***Abstract***
+
+*The rapid integration of artificial intelligence into daily life underscores
 the need to further explore psychological processes underlying advice taking
 from computational algorithms. Following the Judge-Advisor System, this study
 investigates how the anthropomorphism of a chatbot advisor influences the
@@ -24,21 +38,20 @@ calculative financial consulting. In technical settings, the simulated
 approachability of an avatar may trigger the 'Uncanny Valley' effect, inducing
 suspicion that causes users to favor a neutral chatbot. Future research should
 focus on comparing domain-specific use cases of Artificial Intelligence to
-further optimize the social dynamics of human-machine interactions.
+further optimize the social dynamics of human-machine interactions.*
 
 
 As of 2025, approximately one-third of the European population utilizes
 generative artificial intelligence (GenAI) for personal and professional tasks
-([Eurostat,
-2025](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251216-3)).
-This statistic underscores a paradigm shift in decision-making characterized by
-a heavy reliance on computational algorithms.  Historically, individuals sought
-counsel from scholars, religious figures or oracles in life situations marked
-by ambiguity, complexity, or high levels of subjective uncertainty. Nowadays,
-algorithmically generated advice shapes our dating life, shopping behaviour,
-and investment decisions. The specific social dynamics and psychological
-nuances of interacting with these non-human advisors remain insufficiently
-researched. 
+([Eurostat, 2025](https://ec.europa.eu/eurostat/web/products-eurostat-news/
+w/ddn-20251216-3)). This statistic underscores a paradigm shift in
+decision-making characterized by a heavy reliance on computational algorithms.
+Historically, individuals sought counsel from scholars, religious figures or
+oracles in life situations marked by ambiguity, complexity, or high levels of
+subjective uncertainty. Nowadays, algorithmically generated advice shapes our
+dating life, shopping behaviour, and investment decisions. The specific social
+dynamics and psychological nuances of interacting with these non-human
+advisors remain insufficiently researched. 
 
 To address this gap, the present study employs the Judge-Advisor System (JAS),
 a decision-making framework where a single person, the judge, remains
@@ -154,13 +167,14 @@ dependent variable was the Weight of Advice, which quantifies the extent to
 which participants revised their initial judgments following an advisor's
 recommen- dation, calculated using the following formula:
 
-woa = (Final Investment - Initial Investment) / Advice - INitial investment)
+woa = (Final Investment - Initial Investment) / (Advice - Initial Investment)
 
 To control potential order and carryover effects, we used a complete
 counterbalanced block design. Participants were randomly assigned to one of
 six unique condition sequences, ensuring each advisor type appeared equally
 often in every position. Fixed stock chart-advice pairs were utilized, with
 both the order of presentation and the sequence of advisors being randomized
+
 
 ### Procedure
 
@@ -347,33 +361,32 @@ advisors.
 **Table 1**
 *Participant Characteristics Regarding Risk, Finance, Trust, and AI Usage*
 
-| Characteristic                                | Response option      | n  | %    |
-| --------------------------------------------- | -------------------- | -- | ---- |
-| **Willingness to take risks**                 | Very low             | 1  | 2.9  |
-|                                               | Low                  | 13 | 37.1 |
-|                                               | Moderate             | 14 | 40.0 |
-|                                               | High                 | 6  | 17.1 |
-|                                               | Very high            | 1  | 2.9  |
-| **Confidence in handling finances**           | Very unconfident     | 2  | 5.7  |
-|                                               | Unconfident          | 4  | 11.4 |
-|                                               | Somewhat unconfident | 13 | 37.1 |
-|                                               | Somewhat confident   | 15 | 42.9 |
-|                                               | Very confident       | 1  | 2.9  |
-| **Trust in Artificial Intelligence**          | Not at all           | 3  | 8.6  |
-|                                               | Probably not         | 15 | 42.9 |
-|                                               | Neutral              | 12 | 34.3 |
-|                                               | Probably yes         | 5  | 14.3 |
-|                                               | Completely           | 0  | 0.0  |
-| **Everyday Usage of Artificial Intelligence** | Never                | 4  | 11.4 |
-|                                               | Occasionally         | 12 | 34.3 |
-|                                               | Weekly               | 9  | 25.7 |
-|                                               | Almost every day     | 9  | 25.7 |
-|                                               | Several times a day  | 1  | 2.9  |
+|Characteristic                               |Response option     |n |%   |
+|---------------------------------------------|--------------------|--|----|
+|**Willingness to take risks**                |Very low            |1 |2.9 |
+|                                             |Low                 |13|37.1|
+|                                             |Moderate            |14|40.0|
+|                                             |High                |6 |17.1|
+|                                             |Very high           |1 |2.9 |
+|**Confidence in handling finances**          |Very unconfident    |2 |5.7 |
+|                                             |Unconfident         |4 |11.4|
+|                                             |Somewhat unconfident|13|37.1|
+|                                             |Somewhat confident  |15|42.9|
+|                                             |Very confident      |1 |2.9 |
+|**Trust in Artificial Intelligence**         |Not at all          |3 |8.6 |
+|                                             |Probably not        |15|42.9|
+|                                             |Neutral             |12|34.3|
+|                                             |Probably yes        |5 |14.3|
+|                                             |Completely          |0 |0.0 |
+|**Everyday Usage of Artificial Intelligence**|Never               |4 |11.4|
+|                                             |Occasionally        |12|34.3|
+|                                             |Weekly              |9 |25.7|
+|                                             |Almost every day    |9 |25.7|
+|                                             |Several times a day |1 |2.9 |
 
 *Note.* Data were collected via a self-report questionnaire presented
 immediately following the experimental task. Percentages are rounded to one
 decimal place.
-
 
 
 ## References

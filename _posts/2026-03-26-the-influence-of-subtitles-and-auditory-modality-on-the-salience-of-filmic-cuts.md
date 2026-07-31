@@ -1,17 +1,18 @@
 ---
-layout: post
-title:  "The Influence of Subtitles and Auditory Modality on the Salience of Filmic Cuts"
-date:   2026-03-26
-categories: university psychology research
+layout:     post
+title:      "The Influence of Subtitles and Auditory Modality on the Salience of Filmic Cuts"
+date:       2026-03-26
+categories: uni
+tags:       psy cog emp
 ---
 
-This paper was written as part of a seminar during my fifth semester in my
-Bachelor's degree. In the seminar, we explored cognitive psychology in the
-context of media, designed the study ourselves, collected the data, and carried
-out the data analysis independently.
+This paper was written as part of a seminar in my fifth semester of my
+Bachelor's degree. During the seminar, we explored cognitive psychology in
+the context of media, designed the study, collected the data, and analyzed
+the results independently. The R scripts used to analyze the data and
+generate the figures are available [here](https://github.com/hschoss/
+hschoss.github.io/tree/main/assets/code/sound-and-subtitles).
 
-The corresponding analysis code is available here: [analysis
-code](https://github.com/hschoss/hschoss.github.io/tree/main/assets/code/sound-and-subtitles)
 
 ***Abstract***
 
@@ -113,6 +114,7 @@ and the presence of subtitles, such that subtitles will more sharply decrease
 cut detection performance when audio is absent than when audio is present,
 because the viewer will try to get the missing auditory information from the
 visual channel and therefore have increased load on that route.
+
 
 ## Methods
 
@@ -274,6 +276,7 @@ ms) compared to when they were absent (*M* = 598 ms). There was no significant
 interaction between modality and subtitles, *F*(1, 24) = 0.36, *p* = .552, ηₚ²=
 .01.
 
+
 ## Post-Hoc Analysis
 
 **Figure 2**
@@ -335,11 +338,11 @@ performance or reaction time. The factors impaired detection independently.
 However, the lack of an interaction suggests that human reading behavior in the
 presence of subtitles is highly automatic and that the resulting cognitive
 loads are additive and not multiplicative. This also explains the similar
-results and the missing interaction [Papenmeier et al.
-(2024)](https://doi.org/10.1037/aca0000476) found in their experiment. An
-explanation could be that the verbal channel and pictorial channel have
-separate capacity limits and overloading one doesn't turn off the other. Sound
-could load general working memory, while subtitles specifically bottle- neck
+results and the missing interaction [Papenmeier et al.(2024)](
+https://doi.org/10.1037/aca0000476) found in their experiment. An explanation
+could be that the verbal channel and pictorial channel have separate capacity
+limits and overloading one doesn't turn off the other. Sound could load
+general working memory, while subtitles specifically bottle- neck
 the visual processing channel. Therefore, they act as two independent
 influences to the viewer's cognitive load, resulting in a parallel effect
 pattern rather than an interaction.
@@ -376,11 +379,12 @@ independent effect on cut detection rates.
 
 ## Future Research
 
-This study successfully extended the methodology of Papenmeier et al. (2024) by pri-
-oritizing external validity. We used longer film clips, had multiple cinematic cuts, and moved
-from the five-second clips common in laboratory settings to a viewing experience that more
-closely resembles everyday media consumption. Future research could present clips with
-even more cuts and hypothesize about the temporal effects of different cut types.
+This study successfully extended the methodology of Papenmeier et al. (2024)
+by pri- oritizing external validity. We used longer film clips, had multiple
+cinematic cuts, and moved from the five-second clips common in laboratory
+settings to a viewing experience that more closely resembles everyday media
+consumption. Future research could present clips with even more cuts and
+hypothesize about the temporal effects of different cut types.
 
 
 ## Appendix
@@ -402,22 +406,41 @@ even more cuts and hypothesize about the temporal effects of different cut types
 | Often                                   | 7  | 24 |
 | Always                                  | 4  | 16 |
 
-*Note.* Data was collected via a self-report questionnaire presented immediately following the experimental task.
+*Note.* Data was collected via a self-report questionnaire presented
+immediately following the experimental task.
 
 
 ## Literature
 
-ARD/ZDF-Forschungskommission. (2024). *ARD/ZDF-Medienstudie 2024*. ARD/ZDF-Forschungskommission. https://www.ard-zdf-medienforschung.de/mediennutzung/ard-zdf-medienstudie/
+ARD/ZDF-Forschungskommission. (2024). *ARD/ZDF-Medienstudie 2024*.
+ARD/ZDF-Forschungskommission.
+<https://www.ard-zdf-medienforschung.de/mediennutzung/ard-zdf-medienstudie/>
 
-Cutting, J. E., Brunick, K. L., DeLong, J. E., Iricinschi, C., & Candan, A. (2011). Quicker, faster, darker: Changes in Hollywood film over 75 years. *I-Perception, 2*(6), 569–576. https://doi.org/10.1068/i0441aap
+Cutting, J. E., Brunick, K. L., DeLong, J. E., Iricinschi, C., & Candan, A.
+(2011). Quicker, faster, darker: Changes in Hollywood film over 75 years.
+*I-Perception, 2*(6), 569–576.
+<https://doi.org/10.1068/i0441aap>
 
-Mayer, R., & Moreno, R. (2005). A cognitive theory of multimedia learning: Implications for design principles. *Educational Psychologist, 41*(1), 91–115.
+Mayer, R., & Moreno, R. (2005). A cognitive theory of multimedia learning:
+Implications for design principles. *Educational Psychologist, 41*(1), 91–115.
 
-Papenmeier, F., Meyerhoff, H. S., Hecht, H., & Huff, M. (2024). Stereo viewing upsets cinematic continuity: Filmic cuts are more salient in 3D than in 2D movies. *Psychology of Aesthetics, Creativity, and the Arts, 18*(4), 607–616. https://doi.org/10.1037/aca0000476
+Papenmeier, F., Meyerhoff, H. S., Hecht, H., & Huff, M. (2024). Stereo viewing
+upsets cinematic continuity: Filmic cuts are more salient in 3D than in 2D
+movies. *Psychology of Aesthetics, Creativity, and the Arts, 18*(4), 607–616.
+<https://doi.org/10.1037/aca0000476>
 
-Peirce, J., Gray, J. R., Simpson, S., MacAskill, M., Höchenberger, R., Sogo, H., Kastman, E., & Lindeløv, J. K. (2019). PsychoPy2: Experiments in behavior made easy. *Behavior Research Methods, 51*(1), 195–203. https://doi.org/10.3758/s13428-018-01193-y
+Peirce, J., Gray, J. R., Simpson, S., MacAskill, M., Höchenberger, R., Sogo,
+H., Kastman, E., & Lindeløv, J. K. (2019). PsychoPy2: Experiments in behavior
+made easy. *Behavior Research Methods, 51*(1), 195–203.
+<https://doi.org/10.3758/s13428-018-01193-y>
 
-Smith, T. J., & Henderson, J. M. (2008). Edit blindness: The relationship between attention and global change blindness in dynamic scenes. *Journal of Eye Movement Research, 2*(2). https://doi.org/10.16910/jemr.2.2.6
+Smith, T. J., & Henderson, J. M. (2008). Edit blindness: The relationship
+between attention and global change blindness in dynamic scenes. *Journal of
+Eye Movement Research, 2*(2).
+<https://doi.org/10.16910/jemr.2.2.6>
 
-Waxman, J. B., & Goldie, S. J. (2023). Cognitive theory of multimedia learning: Applying cognitive load theory to the design of educational multimedia (Perspectives from the CHDS Media Hub) [Monograph]. Center for Health Decision Science, Harvard T.H. Chan School of Public Health. https://media.repository.chds.hsph.harvard.edu/static/filer_public/ca/62/ca625803-3d73-4855-b3e1-765870ce3772/2023_jwaxman_monograph_cogtheory_multimed.pdf
-
+Waxman, J. B., & Goldie, S. J. (2023). Cognitive theory of multimedia
+learning: Applying cognitive load theory to the design of educational
+multimedia (Perspectives from the CHDS Media Hub) [Monograph]. Center for
+Health Decision Science, Harvard T.H. Chan School of Public Health.
+[https://media.repository.chds.hsph.harvard.edu/.../2023_jwaxman_monograph_cogtheory_multimed.pdf](https://media.repository.chds.hsph.harvard.edu/static/filer_public/ca/62/ca625803-3d73-4855-b3e1-765870ce3772/2023_jwaxman_monograph_cogtheory_multimed.pdf)

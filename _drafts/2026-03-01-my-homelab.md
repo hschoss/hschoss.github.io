@@ -2,10 +2,10 @@
 layout: post
 title:  "My Homelab"
 date:   2026-05-07 10:00:00
-categories: linux infra
+categories: lnx tec
 ---
 
-# the first contact
+## first contact
 In my third semester studying psychology, I took a seminar about large
 language models and how they differ from human language abilities and
 reasoning. I really liked the topic. What I did not like was that we spent our
@@ -19,36 +19,41 @@ I left the ivory tower and showed the group hands-on, how far these chatbots
 had already evolved and i really enjoyed the process. 
 
 In the end, I was relieved when the seminar was finally over.
-But one idea stayed with me: **You can run this technology yourself, at home.**
+But this one idea stayed with me:
+**You can run this technology yourself, at home.**
 
-## the thought process 
-My decision to run high-performance computing hardware at home was not instant. It came from three thoughts that slowly started pointing in the same direction.
+## thought process 
+My decision to run high-performance computing hardware at home was not
+instant. It came from three thoughts that slowly started pointing in the same
+direction and developing this crazy idea.
 
-### 01 - fear of techbros
+### fear of techbros
 A few months ago i saw the cringy video of the [techbro
 dinner](https://www.zdfheute.de/politik/ausland/usa-trump-tech-bosse-dinner-zuckerberg-gates-cook-100.html)
-at the white house. At that moment, It was clear to me that the long told myth
+at the white house. It was clear to me that the long told silicon valley myth
 of the effective altruist had turned into the myth of the effective tax
-avoider. Something in me stopped feeling comfortable that these guys own the
+avoider. Even the last bits in me stopped feeling comfortable that these guys own the
 databases where my interaction with these chatbots are stored.
 
-When LLMs came around, I thought nobody would talk about personal or emotional
-things with these machines. I assumed people would simply use them as google
-on steroids. But very soon, I found myself chatting about everything and
-anything with these systems, which made  that made me increasingly uncomfortable.
+When LLMs came around, I thought nobody would talk about personal stuff or
+feelings things with these machines. I assumed people would simply use them as
+google on steroids. But very soon, I found myself chatting about everything
+and anything with these systems, which made increasingly uncomfortable.
 
-For years, we have known that thanks to machine learning facebook can predict
-your next likes and even personality traits better than your best friends.
-My chat history with multiple LLM providers goes much further than that. These
-corporations now have access to thoughts I do not want to share with anyone,
-because, well, they are *my* thoughts.
+For years, we have known and accepted that thanks to its algorithms, facebook
+can predict your next likes and personality dimensions better than your best
+friends. My chat history with multiple LLM providers goes much further than
+that. These corporations now have access to thoughts I do not want to share
+with anyone, because, well, they are *my* thoughts. Having them stored on
+their system is a compromiss i don't want to take anymore.
 
-### 02 - exorbitant energy costs
-At first I read that a single
+### exorbitant energy costs
+The environmental disaster that will stem from these machines is untold.
+At the beginning I read that a single
 prompt uses roughly two to three times as much energy as a standard web
-search. Honestly, that did not sound absurd to me. If one good answer saves me
+search. Honestly, that did not sound too absurd to me: If one good answer saves me
 from opening ten different links to find the information i am looking for,
-the trade-off is not necessarily absurd. 
+the energiy trade-off should be valid.
 
 But inference is only one side of the story. According to estimates from this
 [recent paper](https://doi.org/10.1016/j.rser.2025.116159), Inference accounts
@@ -58,57 +63,59 @@ calculated in Gigawatts. Not Megawatts and surely not in Kilowatts. I really
 like this mindboggling 3blue1brown short for
 [visualization](https://www.tiktok.com/@3blue1brown/video/7439406247117344030).
 
-So my first Laptop (a 2013 MacBoo Pro), which performs a rough estimate of 100
-billion computations per second, would run for one million years in order to
-train such a model. My newest Laptop with state of the art hardware, would
-still need around 100 000 years. We are talking about a timespan from the
-first symbolic human markings captured on bones to this exact day. And that
-would only be for the scale of GPT-3 which feels cute compared to newest
-models. 
+Inspired by this video, my first Laptop (a 2013 MacBoo Pro), which performs a
+rough estimate of 100 billion computations per second, would run for one
+million years in order to train such a model. My newest Laptop with state of
+the art hardware, would still need around 100 000 years. We are talking about
+a timespan from the first symbolic human markings captured on bones to this
+exact day. And that would only be for the scale of GPT-3 which feels cute
+compared to the newest models. 
 
-This puts the scale into perspective. Yes, inference costs matter. But the
-production costs are immense. Nonetheless, I want to use the technology that
-has been created so far. But I do not want to create even bigger incentives
-for large corporations to build bigger data centers by using their services.
-We already crossed the stage where improving model quality marginally costs
-exponentially more training, more chips, more electricity, and more water.
+This demonstration helps to put the scale into perspective. Yes, inference
+costs matter. But the production costs are immense. Nonetheless, I want to use
+the technology that has been created so far. But I do not want to create even
+bigger incentives for large corporations to build bigger data centers by using
+their services. We already crossed the stage where improving model quality
+marginally costs exponentially more training, more chips, more electricity,
+and more water.
 
-
-### 03 - building skills
+### building skills
 For the last four years, everyone has had an opinion about AI. Our head of
-school talked about it during our Abitur ceremony. Every boomer has an take.
+school talked about it during our Abitur ceremony. Every boomer on linkedin has a take.
 And there seems to be nothing worth studying anymore, because you "might be
 replaced by AI" anyway. At the same time, the actual experts (people like
 Geoffrey Hinton or Bernhard Schölkopf) speak about these systems with much
 more care and criticism than the CEOs selling them. Instead of believing
-everything some tech CEOs in Silicon Valley say about this “world-changing
+everything some marketing oriented tech CEOs in Silicon Valley say about this “world-changing
 technology”, I want to understand it myself. I want to know how these systems
 are installed, how they run, what they can do, what they
-cannot do, and where their limits lie.
-
-If this really is the next big thing, then i want to be competent to use it for 
-my advantage. Therefore i need the technical skill to deploy something that other people built for me, standing on the shoulders of giants.
-
+cannot do, and where their limits lie. If this really is the next big thing, and changing everyones life
+i want to be competent enough to use it.
 
 ## how to get started
 
 ![Passercluster before and after](/assets/images/passercluster-before-after.webp)
 
-There are countless subreddits, blog posts, and YouTube videos
-about homelabs. That is helpful but in the the beginning, you should get your
-hands dirty as soon as possible.
+There are countless subreddits, blog posts, and YouTube videos about homelabs.
+The content on social media is helpful aswell, but in the the beginning, you should
+get your hands dirty as soon as possible and grab some old and rusty tech
+lying around .
 
 Look at what you already have. Upgrade an SSD and some RAM (if you can afford
 it) and try to flash an standard linux server image on the machine.
-Thankfully, my parents already had a network cabinet  It had been severely
-neglected for years and desperately needed some love. Before I bought anything
-new, I started by cleaning it up, sorting cables, checking what devices were
+Thankfully, my parents already had a dusty network cabinet which had been
+severely neglected for years and desperately needed some love.
+So in every sense of the word the "getting your hands dirty" part was quite
+easy for me. I started learning the basics of our FritzBox and the local
+network. I learned how to find devices, how to assign names and IP addresses,
+and how to `ping` machines. Very basic stuff, but also the
+foundation for everything else coming later.
+
+Before I bought anything
+new, I had a list of the devices that were already there and an idea what i could started by cleaning it up, sorting cables, checking what devices were
 already there, and trying to understand how everything was connected.
 
-After that, I started learning the basics of our FritzBox and the local
-network. I learned how to find devices, how to assign names and IP addresses,
-and how to `ping` machines in the same network. Very basic stuff, but also the
-foundation for everything else.
+
 
 Just like with Linux, I chose the extra deep route. I am still relatively
 young, I have the time to learn, and I want to build skills that will still be
@@ -122,6 +129,8 @@ actually useful for my family:
 - **Immich** for photos and videos
 
 ## going hardcore mode 
+
+## the money problem
 
 And what is the logical next step after running a few homeservices? Yeah,
 completely overdoing it. That is why i decided to buy old
