@@ -12,13 +12,12 @@ that reach over 1000 meters in elevation.
 We want to spend more time outside, explore the region, and make it easier for
 friends and people around Tübingen to join for a day in nature.
 
-***next hike: Altsteigerskopf***
-
-**Date:** Sunday, 02 August 2026  
-**Start time:** 08:00 am   
-**Duration:** approx. 5 hours  
-**Route:** [View on Komoot](https://www.komoot.com/de-de/smarttour/44199181)
-
+***next hike: Monbachtal***
+2026-09-03 12:51
+**Date:** Sunday, 04 September 2026  
+**Start time:** 01:00 pm   
+**Duration:** approx. 2 hours  
+**Route:** 
 
 ## how it works
 

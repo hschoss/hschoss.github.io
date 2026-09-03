@@ -12,13 +12,11 @@ pages](https://nownownow.com/about).
 * setting up a self-hosted [tailnet](https://headscale.net/stable/).
 * Working toward the advanced category in dips, pull ups and bench press on
   [strenghlevel.com](https://strengthlevel.com/).
-* refreshing highschool math and getting used to uni level maths.
+* refreshing german highschool math [books](http://eumenides.de/) and getting used to machine learning maths
 
 ### in between
-* brushing up my english vocab
-* starting a hiking group for weekend trips in the [black
-  forest](https://hschoss.github.io/bf1k/)
+* brushing up my english vocab for C2 assessment
 * looking for internships and study-abroad options in places with strong machine
 learning courses
 
-last updated: July 20, 2026
+last updated: 2026-08-27

@@ -10,21 +10,7 @@ If you are nearby, feel free to say hello.
 
 ---
 
-### next 7 days
-
-***first bf1k trip***
-
-**Date:** 2026-08-02 08:00  
-**Location:** Altsteigerskopf
-**Description:** first hike in my small hiking club
-
----
-
-## next 30 days
-
----
-
-## next 90 days
+## next 7 days
 
 ***Cyber Valley: [10 Years Innovation Campus](https://www.cyber-valley.de/de/events/cyber-valley-day-2026)***
 
@@ -32,15 +18,60 @@ If you are nearby, feel free to say hello.
 **Location:** Cyber Valley Building  
 **Description:** tenth anniversary public event at the Cyber Valley building in Tübingen.
 
+---
+
+## next 30 days
+
 ***Vokalkunst: [Suchet der Stadt Bestes](https://vokalkunst.de/konzert/franziskanerkirche-2/)***
 
 **Date:** 2026-09-27 18:00  
 **Location:** Franziskanerkirche Esslingen  
 **Description:** new programme, first concert
 
+
+---
+
+## next 90 days
+
+***Startup Con Tübingen***
+
+**Date:** 2026-10-14 17:00–19:00  
+**Location:** Tübingen  
+**Description:** Startup event.
+
+---
+
+***Die schlaue Füchsin***
+
+**Date:** 2026-10-16 19:30  
+**Location:** Opernhaus, Oberer Schloßgarten 6, 70173 Stuttgart  
+**Description:** Opera visit.
+
+---
+
+***Lucia di Lammermoor***
+
+**Date:** 2026-10-23 19:00  
+**Location:** Opernhaus, Oberer Schloßgarten 6, 70173 Stuttgart  
+**Description:** Opera visit.
+
+---
+
+***Zwischen zwei Menschen entsteht manchmal, ...***
+
+**Date:** 2026-11-21 18:00  
+**Location:** Schauspielhaus, Oberer Schloßgarten 6, 70173 Stuttgart  
+**Description:** Theatre visit.
+
 ---
 
 ### Later
+
+***Der Spieler***
+
+**Date:** 2026-12-22 19:00  
+**Location:** Opernhaus, Oberer Schloßgarten 6, 70173 Stuttgart  
+**Description:** Opera visit.
 
 ---
 
@@ -53,5 +84,5 @@ If you are nearby, feel free to say hello.
 
 ---
 
-last updated: July 20, 2026
-
+last updated: 2026-09-03
+```
